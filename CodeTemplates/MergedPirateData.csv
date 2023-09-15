@@ -1,0 +1,1002 @@
+index,id,sex,height,weight,college,tattoos,tchests,parrots,sword.type,eyepatch,beard.length,fav.pixar,grogg,favorite.sea
+0,1,male,173.11,70.5,JSSFP,9,0,0,cutlass,1,16,"Monsters, Inc.",11,Caspian Sea
+1,2,male,209.25,105.6,JSSFP,9,11,0,cutlass,0,21,WALL-E,9,Red Sea
+2,3,male,169.95,77.1,CCCC,10,10,1,cutlass,1,19,Inside Out,7,Chilean Sea
+3,4,female,144.29,58.5,JSSFP,2,0,2,scimitar,1,2,Inside Out,9,Bering Sea
+4,5,female,157.85,58.4,JSSFP,9,6,4,cutlass,1,0,Inside Out,14,Labrador Sea
+5,6,male,190.2,85.4,CCCC,7,19,0,cutlass,1,17,Monsters University,7,Black Sea
+6,7,female,158.05,59.6,JSSFP,9,1,7,cutlass,0,1,Cars,9,Baltic Sea
+7,8,female,172.52,74.5,JSSFP,5,13,7,cutlass,1,1,Inside Out,12,Norwegian Sea
+8,9,female,164.57,68.7,JSSFP,12,37,2,cutlass,0,1,Toy Story 3,16,Labrador Sea
+9,10,male,183.52,84.7,JSSFP,12,69,4,cutlass,1,25,Monsters University,9,Ryukyu Sea
+10,11,female,162.49,63.5,CCCC,10,1,3,cutlass,1,1,Inside Out,7,Ryukyu Sea
+11,12,male,163.65,70.0,CCCC,14,5,3,cutlass,0,27,"Monsters, Inc.",8,Caribbean Sea
+12,13,female,171.04,72.6,CCCC,8,6,0,cutlass,0,0,"Monsters, Inc.",12,Southern Ocean
+13,14,male,177.99,78.2,CCCC,9,12,3,cutlass,1,19,Inside Out,7,Labrador Sea
+14,15,female,167.65,65.4,JSSFP,14,70,0,cutlass,1,0,Monsters University,9,Aegean Sea
+15,16,female,165.1,65.7,JSSFP,8,3,1,scimitar,1,1,The Incredibles,10,Norwegian Sea
+16,17,male,177.52,72.7,CCCC,11,3,0,cutlass,0,20,Finding Nemo,15,Arabian Sea
+17,18,female,158.3,65.6,JSSFP,7,107,3,cutlass,0,0,"Monsters, Inc.",8,Tyrrhenian Sea
+18,19,female,173.07,72.8,JSSFP,7,75,14,cutlass,0,0,Finding Nemo,11,Java Sea
+19,20,male,175.45,69.0,CCCC,14,30,3,cutlass,0,27,WALL-E,10,Andaman Sea
+20,21,male,187.83,85.8,CCCC,10,11,6,cutlass,0,12,"Monsters, Inc.",6,Greenland Sea
+21,22,female,179.06,82.1,JSSFP,5,13,4,cutlass,1,2,Ratatouille,8,Southern Ocean
+22,23,male,158.66,53.5,CCCC,13,11,1,cutlass,0,29,Finding Nemo,13,Baltic Sea
+23,24,male,175.29,83.0,CCCC,10,3,2,cutlass,1,24,Up,8,Sulu Sea
+24,25,male,187.48,85.6,JSSFP,10,18,1,sabre,1,17,Inside Out,2,Ligurian Sea
+25,26,female,153.54,54.6,CCCC,10,10,3,cutlass,1,0,Inside Out,9,Norwegian Sea
+26,27,male,171.48,66.0,CCCC,2,2,0,banana,1,18,Inside Out,10,Tasman Sea
+27,28,male,177.04,71.9,JSSFP,15,15,4,cutlass,1,29,Inside Out,15,Celebes Sea
+28,29,female,145.98,57.4,CCCC,14,1,1,cutlass,0,0,Finding Nemo,11,Mediterranean Sea
+29,30,female,134.87,37.9,CCCC,12,44,10,cutlass,1,1,Monsters University,2,Gulf of Mexico
+30,31,male,196.69,91.7,CCCC,2,54,1,cutlass,1,17,Monsters University,11,South China Sea
+31,32,male,181.95,79.4,CCCC,15,6,2,cutlass,1,29,Monsters University,9,Gulf of Mexico
+32,33,male,190.02,90.5,JSSFP,13,3,1,cutlass,1,24,Inside Out,7,Bering Sea
+33,34,female,162.6,61.0,CCCC,13,15,6,cutlass,1,0,"Monsters, Inc.",7,Caribbean Sea
+34,35,male,178.24,75.1,CCCC,17,2,1,cutlass,0,24,Brave,8,Bering Sea
+35,36,female,163.09,63.3,CCCC,9,14,0,cutlass,0,0,Monsters University,9,Adriatic Sea
+36,37,other,161.2,63.6,CCCC,0,3,"""1""",scimitar,1,3,A Bug's Life,8,Norwegian Sea
+37,38,female,158.03,63.0,JSSFP,8,1,2,cutlass,1,0,A Bug's Life,13,Ryukyu Sea
+38,39,female,129.83,33.0,CCCC,6,39,1,sabre,0,1,Finding Nemo,13,Baltic Sea
+39,40,female,153.68,61.7,JSSFP,9,18,6,cutlass,1,0,Up,12,Celebes Sea
+40,41,female,158.88,59.2,CCCC,18,58,3,cutlass,1,0,A Bug's Life,4,Andaman Sea
+41,42,female,176.59,69.3,CCCC,13,1,1,cutlass,1,1,Inside Out,8,Red Sea
+42,43,female,158.6,67.7,CCCC,15,10,2,cutlass,0,0,WALL-E,9,Baltic Sea
+43,44,male,178.66,82.6,CCCC,4,0,2,cutlass,1,8,"Monsters, Inc.",19,South China Sea
+44,45,male,167.63,65.9,CCCC,8,17,5,cutlass,1,17,Toy Story 3,10,Labrador Sea
+45,46,female,176.23,75.3,CCCC,14,14,8,cutlass,1,0,Inside Out,6,Greenland Sea
+46,47,female,157.7,64.9,CCCC,12,56,2,cutlass,1,0,Up,9,Barents Sea
+47,48,male,166.62,67.8,CCCC,8,26,3,banana,1,11,"Monsters, Inc.",7,Ligurian Sea
+48,49,male,160.64,70.7,CCCC,9,9,2,cutlass,0,16,Toy Story 3,10,Tyrrhenian Sea
+49,50,female,151.61,60.8,CCCC,8,1,0,cutlass,0,1,Finding Nemo,9,Southern Ocean
+50,51,male,170.25,71.0,CCCC,9,13,1,cutlass,1,15,Up,10,Java Sea
+51,52,other,179.06,74.1,JSSFP,13,0,4,cutlass,0,13,Ratatouille,13,Yellow Sea
+52,53,male,191.01,89.6,CCCC,11,6,1,cutlass,1,15,Inside Out,5,Adriatic Sea
+53,54,female,160.91,58.2,JSSFP,12,102,3,cutlass,1,1,Inside Out,0,Barents Sea
+54,55,male,161.41,63.8,CCCC,8,1,5,cutlass,1,13,Inside Out,12,Ryukyu Sea
+55,56,male,187.51,83.4,CCCC,8,17,1,cutlass,0,19,Toy Story,11,Tyrrhenian Sea
+56,57,male,182.52,76.7,CCCC,15,36,1,cutlass,0,20,"Monsters, Inc.",18,Ligurian Sea
+57,58,female,156.38,57.2,CCCC,9,35,0,cutlass,1,0,Inside Out,7,Adriatic Sea
+58,59,male,170.51,73.9,CCCC,8,25,9,cutlass,1,23,Monsters University,15,Sulu Sea
+59,60,female,151.83,46.8,JSSFP,2,20,2,scimitar,1,1,WALL-E,10,Sulu Sea
+60,61,female,147.82,52.2,JSSFP,14,38,17,cutlass,1,1,Monsters University,8,Baltic Sea
+61,62,male,174.94,73.2,CCCC,11,3,0,cutlass,0,20,WALL-E,14,Tasman Sea
+62,63,male,178.15,81.0,CCCC,10,0,10,sabre,1,15,Up,7,Adriatic Sea
+63,64,female,157.91,54.2,JSSFP,6,14,1,scimitar,1,0,The Incredibles,11,Bering Sea
+64,65,female,168.26,70.8,CCCC,9,20,1,cutlass,1,2,Inside Out,9,Tyrrhenian Sea
+65,66,other,186.29,87.5,CCCC,11,26,1,cutlass,0,23,Finding Nemo,11,Sea of Japan
+66,67,male,174.63,76.7,CCCC,14,34,1,cutlass,1,16,Inside Out,8,Ryukyu Sea
+67,68,female,165.66,55.8,JSSFP,8,18,3,cutlass,1,0,Inside Out,3,Gulf of St Lawrence
+68,69,male,179.63,74.9,CCCC,7,16,7,cutlass,0,14,Toy Story 2,10,Ryukyu Sea
+69,70,other,179.8,66.6,CCCC,11,31,1,cutlass,0,20,The Incredibles,6,Yellow Sea
+70,71,female,164.41,64.5,JSSFP,5,38,5,scimitar,0,0,WALL-E,13,Baltic Sea
+71,72,female,152.21,57.7,CCCC,7,17,2,cutlass,1,2,Inside Out,4,Baltic Sea
+72,73,female,186.2,85.5,CCCC,13,59,0,cutlass,1,0,The Incredibles,11,Celebes Sea
+73,74,female,161.52,58.6,JSSFP,9,31,3,cutlass,0,1,Brave,7,Andaman Sea
+74,75,male,185.38,83.6,CCCC,11,17,1,cutlass,1,26,Inside Out,10,Baltic Sea
+75,76,female,155.54,59.0,JSSFP,6,4,0,cutlass,1,0,Cars,13,Southern Ocean
+76,77,female,164.19,54.5,CCCC,6,9,3,cutlass,1,0,Inside Out,7,Philippine Sea
+77,78,male,169.03,67.3,CCCC,7,64,0,cutlass,1,31,Inside Out,13,Caribbean Sea
+78,79,male,171.32,66.6,CCCC,13,2,0,cutlass,1,22,Inside Out,12,Caribbean Sea
+79,80,female,160.57,64.7,JSSFP,12,41,1,cutlass,1,1,Monsters University,9,Caribbean Sea
+80,81,female,152.77,57.6,JSSFP,5,54,6,banana,1,0,Up,14,Mediterranean Sea
+81,82,male,187.09,79.7,CCCC,16,2,1,cutlass,0,26,The Incredibles,9,Black Sea
+82,83,male,159.73,70.3,CCCC,12,0,1,cutlass,1,14,Inside Out,11,Tyrrhenian Sea
+83,84,female,179.91,74.6,CCCC,14,5,2,cutlass,1,1,WALL-E,10,Philippine Sea
+84,85,female,148.85,52.9,CCCC,9,122,2,cutlass,0,0,Toy Story,14,Adriatic Sea
+85,86,female,159.63,58.4,CCCC,10,1,0,cutlass,0,0,Up,7,Yellow Sea
+86,87,male,165.55,68.2,CCCC,14,73,5,cutlass,1,20,The Incredibles,11,Gulf of Alaska
+87,88,female,169.06,63.6,JSSFP,6,1,2,banana,1,0,Finding Nemo,10,Mediterranean Sea
+88,89,male,173.03,71.4,CCCC,13,25,1,scimitar,0,22,Cars,13,Coral Sea
+89,90,other,169.57,67.3,CCCC,10,7,2,cutlass,0,20,Finding Nemo,9,Greenland Sea
+90,91,male,179.77,81.1,CCCC,3,0,2,cutlass,0,15,Finding Nemo,14,Celebes Sea
+91,92,male,180.68,79.4,JSSFP,9,13,1,cutlass,1,10,"Monsters, Inc.",6,Gulf of Alaska
+92,93,male,169.89,70.4,JSSFP,7,75,24,cutlass,1,18,Monsters University,11,Arabian Sea
+93,94,male,178.16,76.8,CCCC,12,7,0,cutlass,0,21,Up,9,South China Sea
+94,95,female,148.2,54.2,JSSFP,11,21,21,cutlass,1,1,Inside Out,10,Arabian Sea
+95,96,female,155.69,52.5,JSSFP,9,18,20,cutlass,1,1,Inside Out,14,Red Sea
+96,97,male,187.16,79.1,CCCC,4,66,2,cutlass,0,13,Finding Nemo,11,Gulf of Mexico
+97,98,female,166.89,70.1,CCCC,7,10,2,cutlass,1,0,Inside Out,6,Aegean Sea
+98,99,female,170.84,63.5,JSSFP,14,34,5,cutlass,0,2,Finding Nemo,13,Java Sea
+99,100,female,160.95,67.0,JSSFP,9,72,0,cutlass,1,2,Inside Out,13,South China Sea
+100,101,other,168.82,63.0,JSSFP,13,10,2,cutlass,1,13,Up,16,East China Sea
+101,102,male,162.25,55.3,CCCC,10,24,4,cutlass,1,24,Inside Out,12,Coral Sea
+102,103,male,164.73,68.0,JSSFP,13,22,2,cutlass,1,24,Inside Out,8,Black Sea
+103,104,male,161.89,63.9,CCCC,11,6,6,cutlass,1,16,"Monsters, Inc.",4,South China Sea
+104,105,male,161.84,61.4,CCCC,6,15,1,scimitar,1,6,Inside Out,7,Southern Ocean
+105,106,male,188.26,89.9,CCCC,8,15,2,cutlass,1,20,Inside Out,6,Barents Sea
+106,107,male,171.98,69.8,CCCC,4,23,0,cutlass,1,11,Up,9,Sea of Japan
+107,108,male,162.77,60.8,CCCC,7,37,0,scimitar,0,18,Monsters University,10,Norwegian Sea
+108,109,male,187.63,88.2,CCCC,12,29,2,cutlass,1,21,Inside Out,12,Ligurian Sea
+109,110,male,186.93,85.1,JSSFP,4,63,4,cutlass,0,15,The Incredibles,12,Banda Sea
+110,111,male,188.19,86.2,JSSFP,12,2,3,cutlass,0,12,Monsters University,13,Chilean Sea
+111,112,male,173.92,72.3,CCCC,15,59,4,cutlass,1,25,Inside Out,10,Sulu Sea
+112,113,male,174.55,73.6,JSSFP,12,8,4,cutlass,1,18,Inside Out,7,Gulf of Mexico
+113,114,male,156.65,59.6,CCCC,1,2,2,cutlass,1,8,Inside Out,13,Yellow Sea
+114,115,male,188.16,90.8,CCCC,18,9,2,cutlass,0,26,The Incredibles,10,East China Sea
+115,116,male,165.18,62.7,CCCC,9,9,2,cutlass,1,13,Inside Out,6,Philippine Sea
+116,117,male,184.16,79.2,JSSFP,5,6,6,cutlass,0,4,Monsters University,11,East China Sea
+117,118,male,176.42,77.6,CCCC,14,0,4,cutlass,1,16,Inside Out,16,Black Sea
+118,119,female,163.22,70.9,CCCC,9,67,1,cutlass,0,0,Monsters University,8,Caribbean Sea
+119,120,female,161.14,65.2,CCCC,9,2,0,cutlass,1,1,Cars 2,7,Red Sea
+120,121,female,166.0,66.7,JSSFP,5,24,0,cutlass,0,0,Monsters University,11,Yellow Sea
+121,122,female,150.86,56.7,CCCC,11,9,4,cutlass,1,1,A Bug's Life,9,Caspian Sea
+122,123,male,176.82,76.9,CCCC,9,22,5,cutlass,1,17,"Monsters, Inc.",9,Black Sea
+123,124,male,175.59,71.8,JSSFP,10,21,9,cutlass,0,20,Up,12,Adriatic Sea
+124,125,female,178.94,84.3,JSSFP,10,0,1,cutlass,1,0,The Incredibles,6,Caspian Sea
+125,126,female,163.79,65.6,CCCC,17,33,1,cutlass,1,1,Inside Out,8,Adriatic Sea
+126,127,female,161.16,60.2,JSSFP,12,0,0,cutlass,0,1,Finding Nemo,14,Adriatic Sea
+127,128,male,167.12,64.5,JSSFP,11,10,5,cutlass,0,18,Finding Nemo,2,Yellow Sea
+128,129,male,167.41,67.1,CCCC,5,3,7,cutlass,0,11,Finding Nemo,6,Sulu Sea
+129,130,male,180.26,75.6,JSSFP,14,36,1,cutlass,1,25,Inside Out,12,Andaman Sea
+130,131,female,148.7,57.6,JSSFP,10,14,9,banana,1,0,Toy Story,11,Caspian Sea
+131,132,female,166.57,65.1,CCCC,8,19,1,cutlass,0,0,Cars,5,Sulu Sea
+132,133,female,171.3,76.5,CCCC,7,48,6,cutlass,1,0,Inside Out,10,Greenland Sea
+133,134,male,191.17,86.9,CCCC,5,27,3,sabre,0,13,Finding Nemo,10,Baltic Sea
+134,135,female,167.86,67.9,JSSFP,6,29,1,cutlass,1,1,Toy Story,9,Sea of Japan
+135,136,male,185.72,77.5,CCCC,12,4,2,cutlass,0,24,Finding Nemo,6,Java Sea
+136,137,female,158.13,62.4,CCCC,12,20,2,cutlass,1,2,Cars 2,17,Gulf of Alaska
+137,138,male,169.92,69.5,JSSFP,12,3,14,cutlass,0,18,A Bug's Life,8,Red Sea
+138,139,male,172.41,70.5,CCCC,8,3,15,cutlass,1,20,Inside Out,15,Celebes Sea
+139,140,male,170.09,68.9,JSSFP,8,69,0,cutlass,1,22,Monsters University,12,Mediterranean Sea
+140,141,other,167.26,63.3,JSSFP,12,92,6,cutlass,1,22,WALL-E,11,Tyrrhenian Sea
+141,142,female,157.1,56.2,CCCC,13,14,4,cutlass,0,0,A Bug's Life,16,Coral Sea
+142,143,female,160.15,55.5,CCCC,12,35,2,cutlass,0,0,Finding Nemo,11,Mediterranean Sea
+143,144,male,170.28,66.9,JSSFP,4,74,1,cutlass,0,16,Monsters University,7,Ryukyu Sea
+144,145,other,178.68,71.7,CCCC,10,36,0,cutlass,1,12,Inside Out,11,Coral Sea
+145,146,male,161.51,63.7,CCCC,11,7,0,cutlass,1,21,Up,14,Adriatic Sea
+146,147,female,154.84,59.3,CCCC,10,28,1,cutlass,0,0,Finding Nemo,10,Bering Sea
+147,148,male,190.82,85.2,CCCC,10,24,1,cutlass,0,13,Finding Nemo,11,Bering Sea
+148,149,male,186.85,82.5,CCCC,8,5,1,cutlass,1,28,Inside Out,7,Celebes Sea
+149,150,female,176.27,74.5,CCCC,7,4,1,cutlass,1,0,Inside Out,9,Chilean Sea
+150,151,female,172.18,71.2,JSSFP,12,19,1,cutlass,1,0,The Incredibles,8,Banda Sea
+151,152,male,171.48,73.6,JSSFP,9,43,1,cutlass,1,21,Inside Out,10,Southern Ocean
+152,153,female,152.03,59.0,CCCC,7,5,0,cutlass,0,0,Finding Nemo,11,Caspian Sea
+153,154,female,159.16,60.8,JSSFP,10,13,4,cutlass,1,0,Inside Out,6,Norwegian Sea
+154,155,male,179.91,75.8,CCCC,10,18,1,cutlass,0,16,Toy Story 2,2,East China Sea
+155,156,female,158.18,61.5,CCCC,8,21,3,sabre,0,0,Finding Nemo,9,Baltic Sea
+156,157,male,157.83,63.1,JSSFP,19,30,5,cutlass,0,35,Brave,12,Java Sea
+157,158,male,183.98,79.8,CCCC,9,4,3,cutlass,1,18,Inside Out,9,Yellow Sea
+158,159,female,160.9,66.7,JSSFP,12,6,4,scimitar,1,0,The Incredibles,15,Celebes Sea
+159,160,female,167.04,70.3,CCCC,7,14,1,cutlass,1,1,Inside Out,11,Barents Sea
+160,161,male,187.23,81.4,CCCC,12,60,3,sabre,1,22,Toy Story,13,Gulf of St Lawrence
+161,162,male,186.99,84.2,CCCC,13,9,1,cutlass,1,12,Inside Out,9,Andaman Sea
+162,163,male,169.19,66.8,CCCC,10,27,1,scimitar,0,13,Finding Nemo,10,Mediterranean Sea
+163,164,male,191.65,91.0,CCCC,6,28,7,scimitar,1,12,Brave,9,Ligurian Sea
+164,165,female,156.18,55.6,JSSFP,13,28,4,cutlass,1,1,Inside Out,13,Chilean Sea
+165,166,male,181.4,80.4,CCCC,10,1,0,cutlass,1,23,Inside Out,7,Aegean Sea
+166,167,male,182.91,75.1,CCCC,11,72,3,cutlass,0,29,Finding Nemo,8,Ryukyu Sea
+167,168,female,157.38,57.6,JSSFP,11,13,1,cutlass,0,1,Finding Nemo,11,Norwegian Sea
+168,169,male,198.72,90.5,CCCC,12,13,3,cutlass,1,24,Monsters University,10,Labrador Sea
+169,170,female,153.9,61.1,CCCC,7,8,2,cutlass,1,1,The Incredibles,13,Mediterranean Sea
+170,171,male,168.89,69.3,CCCC,10,26,1,cutlass,1,22,"Monsters, Inc.",8,Barents Sea
+171,172,female,163.18,63.8,CCCC,4,13,0,sabre,1,0,Inside Out,12,Arabian Sea
+172,173,male,155.42,55.6,CCCC,12,12,1,scimitar,0,20,Up,8,Tyrrhenian Sea
+173,174,female,147.33,47.5,JSSFP,2,55,4,sabre,1,0,Inside Out,6,Banda Sea
+174,175,male,170.81,70.8,CCCC,6,110,1,cutlass,0,8,Monsters University,8,Black Sea
+175,176,female,143.11,49.8,JSSFP,11,13,4,cutlass,1,1,The Incredibles,13,Mediterranean Sea
+176,177,male,190.17,79.9,CCCC,1,14,1,sabre,1,13,Inside Out,11,East China Sea
+177,178,female,148.37,52.5,CCCC,5,2,5,scimitar,0,0,Finding Nemo,7,Bering Sea
+178,179,female,166.17,61.7,JSSFP,15,60,0,cutlass,0,1,Finding Nemo,10,Red Sea
+179,180,male,189.18,82.9,CCCC,6,25,1,cutlass,1,18,Up,13,Red Sea
+180,181,male,179.45,74.2,CCCC,7,4,1,cutlass,1,15,Up,13,Caspian Sea
+181,182,male,161.99,59.8,CCCC,11,34,5,sabre,1,20,Cars,12,Caspian Sea
+182,183,male,176.75,81.8,JSSFP,11,2,1,cutlass,1,26,Inside Out,8,Greenland Sea
+183,184,male,178.71,75.1,CCCC,5,19,4,cutlass,1,12,Toy Story 2,11,Java Sea
+184,185,male,171.74,75.9,JSSFP,12,11,1,cutlass,1,21,Finding Nemo,11,Aegean Sea
+185,186,female,146.73,46.2,CCCC,6,15,2,scimitar,1,0,Toy Story 3,9,Caspian Sea
+186,187,male,170.14,68.0,CCCC,13,10,1,cutlass,1,25,Inside Out,11,Caribbean Sea
+187,188,female,180.84,75.0,JSSFP,11,44,9,cutlass,1,0,The Incredibles,10,Ryukyu Sea
+188,189,female,169.4,71.4,JSSFP,10,58,3,cutlass,1,0,Inside Out,7,Tyrrhenian Sea
+189,190,female,150.1,64.5,CCCC,11,1,6,cutlass,1,0,Monsters University,11,Sulu Sea
+190,191,female,164.38,69.1,CCCC,15,23,2,cutlass,0,0,Finding Nemo,11,Norwegian Sea
+191,192,male,167.03,68.2,JSSFP,12,6,3,cutlass,1,26,Inside Out,12,Sulu Sea
+192,193,female,173.1,75.8,CCCC,10,20,5,cutlass,1,0,Inside Out,13,Arabian Sea
+193,194,male,187.11,87.7,JSSFP,8,5,1,cutlass,1,17,Inside Out,7,Sulu Sea
+194,195,male,196.66,90.2,JSSFP,10,22,6,cutlass,1,27,Monsters University,12,Tyrrhenian Sea
+195,196,female,162.91,61.8,CCCC,8,46,7,cutlass,1,1,Up,7,Coral Sea
+196,197,female,161.73,70.3,CCCC,10,23,1,cutlass,0,1,Up,13,Banda Sea
+197,198,female,167.23,70.1,JSSFP,11,4,0,sabre,0,0,Monsters University,15,Ryukyu Sea
+198,199,female,195.78,93.0,JSSFP,13,15,0,cutlass,1,0,The Incredibles,12,Andaman Sea
+199,200,female,176.5,76.4,JSSFP,0,8,0,cutlass,1,0,Inside Out,8,Baltic Sea
+200,201,male,178.05,70.6,CCCC,14,12,1,cutlass,1,26,Inside Out,8,Tyrrhenian Sea
+201,202,female,155.81,58.5,CCCC,8,1,2,cutlass,1,0,Inside Out,10,Caspian Sea
+202,203,male,185.95,77.0,CCCC,10,10,1,cutlass,0,22,Up,12,Ryukyu Sea
+203,204,female,178.5,77.3,JSSFP,15,49,1,cutlass,0,1,Finding Nemo,11,Gulf of Mexico
+204,205,female,149.71,59.0,CCCC,8,25,1,cutlass,1,0,"Monsters, Inc.",6,Baltic Sea
+205,206,female,161.34,58.8,CCCC,9,1,1,cutlass,1,0,Inside Out,12,Sulu Sea
+206,207,female,167.24,65.1,JSSFP,12,2,1,cutlass,1,0,Toy Story 3,12,Ligurian Sea
+207,208,male,171.26,70.3,CCCC,10,7,0,cutlass,0,13,Up,11,Yellow Sea
+208,209,male,176.3,70.2,CCCC,2,2,1,cutlass,1,15,Inside Out,5,Ligurian Sea
+209,210,other,155.09,58.5,JSSFP,10,122,0,cutlass,1,12,Finding Nemo,9,Southern Ocean
+210,211,female,157.2,60.5,CCCC,12,11,3,cutlass,1,1,Inside Out,11,East China Sea
+211,212,female,156.34,57.1,CCCC,8,4,5,cutlass,0,0,Finding Nemo,10,Caspian Sea
+212,213,female,150.93,62.2,CCCC,7,7,0,cutlass,1,0,WALL-E,10,East China Sea
+213,214,female,183.21,78.0,JSSFP,13,12,10,cutlass,1,0,A Bug's Life,4,Norwegian Sea
+214,215,female,187.3,80.5,JSSFP,8,28,1,cutlass,1,0,Inside Out,3,Caspian Sea
+215,216,female,166.42,71.7,JSSFP,7,54,2,cutlass,1,1,A Bug's Life,11,Coral Sea
+216,217,female,191.52,85.8,JSSFP,6,37,1,cutlass,1,0,Inside Out,9,Gulf of St Lawrence
+217,218,male,179.0,77.3,CCCC,10,11,6,cutlass,1,26,Inside Out,8,Java Sea
+218,219,male,194.74,87.5,JSSFP,1,26,0,banana,1,11,Monsters University,14,Ryukyu Sea
+219,220,male,181.82,82.9,CCCC,15,52,5,cutlass,1,33,Inside Out,9,South China Sea
+220,221,female,155.91,57.0,JSSFP,12,9,2,sabre,1,0,Monsters University,11,Aegean Sea
+221,222,male,148.73,55.4,CCCC,7,37,0,cutlass,1,12,Inside Out,15,Bering Sea
+222,223,female,135.15,45.2,JSSFP,11,28,7,cutlass,1,0,Finding Nemo,12,Arabian Sea
+223,224,female,166.62,65.5,CCCC,9,13,1,cutlass,1,0,Brave,13,Java Sea
+224,225,male,169.31,69.0,CCCC,10,25,0,cutlass,1,25,Inside Out,9,Sea of Japan
+225,226,male,177.05,67.1,JSSFP,11,123,1,cutlass,0,23,Finding Nemo,10,Arabian Sea
+226,227,female,178.52,74.7,JSSFP,8,2,4,cutlass,0,0,Finding Nemo,12,Gulf of Mexico
+227,228,female,167.45,65.2,CCCC,5,12,0,cutlass,0,0,Inside Out,7,Coral Sea
+228,229,female,163.24,60.2,JSSFP,9,21,5,cutlass,1,2,Finding Nemo,10,Barents Sea
+229,230,female,174.0,71.8,JSSFP,5,9,0,banana,1,1,Inside Out,11,Aegean Sea
+230,231,male,175.07,72.3,CCCC,9,9,1,banana,1,14,Inside Out,11,Celebes Sea
+231,232,female,161.37,64.8,JSSFP,7,48,2,cutlass,1,0,Toy Story 2,11,Barents Sea
+232,233,female,174.16,71.1,JSSFP,12,18,1,cutlass,1,0,Inside Out,16,Caspian Sea
+233,234,male,170.11,70.9,CCCC,8,5,1,cutlass,0,21,Finding Nemo,19,Barents Sea
+234,235,male,173.82,72.0,CCCC,12,7,12,scimitar,1,27,WALL-E,5,Gulf of Alaska
+235,236,male,176.45,80.2,CCCC,14,4,2,cutlass,0,28,Monsters University,9,Barents Sea
+236,237,other,174.76,73.2,CCCC,10,17,1,cutlass,1,15,Brave,15,Gulf of Mexico
+237,238,female,158.21,54.4,CCCC,11,63,3,cutlass,1,0,The Incredibles,13,Bering Sea
+238,239,female,173.33,69.8,JSSFP,4,15,3,cutlass,1,1,Inside Out,11,Greenland Sea
+239,240,male,168.78,69.5,JSSFP,9,125,2,cutlass,0,17,Finding Nemo,13,Gulf of St Lawrence
+240,241,female,173.52,79.3,CCCC,12,2,4,cutlass,1,0,Cars,11,Caspian Sea
+241,242,female,163.79,63.2,CCCC,16,18,1,cutlass,1,1,Inside Out,11,Chilean Sea
+242,243,female,188.44,88.0,JSSFP,7,59,7,cutlass,1,1,Inside Out,11,East China Sea
+243,244,male,164.99,67.9,CCCC,8,23,1,cutlass,0,14,Finding Nemo,12,Arabian Sea
+244,245,male,172.84,71.5,CCCC,12,21,3,cutlass,0,21,Brave,8,Sea of Japan
+245,246,female,164.32,66.7,JSSFP,10,101,4,cutlass,0,0,Finding Nemo,6,Labrador Sea
+246,247,male,164.26,62.8,CCCC,14,13,2,cutlass,1,20,Cars 2,6,Philippine Sea
+247,248,male,175.78,68.9,CCCC,6,43,4,cutlass,1,21,"Monsters, Inc.",10,Ligurian Sea
+248,249,male,182.14,77.6,CCCC,12,16,2,cutlass,1,22,Up,6,Gulf of Alaska
+249,250,female,169.53,63.8,CCCC,9,21,9,cutlass,1,0,The Incredibles,8,Adriatic Sea
+250,251,male,177.82,76.4,JSSFP,9,1,2,cutlass,0,14,Finding Nemo,3,Celebes Sea
+251,252,female,177.9,80.2,CCCC,6,10,4,cutlass,1,1,Inside Out,10,Norwegian Sea
+252,253,female,168.14,70.5,JSSFP,12,8,0,cutlass,1,0,Inside Out,13,Ryukyu Sea
+253,254,male,180.27,77.2,CCCC,11,47,0,cutlass,0,22,The Incredibles,6,Ryukyu Sea
+254,255,female,163.97,62.5,CCCC,11,6,0,cutlass,1,0,The Incredibles,14,Philippine Sea
+255,256,male,195.82,88.3,CCCC,4,9,3,cutlass,1,24,Cars,9,Southern Ocean
+256,257,female,154.1,59.0,JSSFP,10,32,1,cutlass,1,0,Inside Out,17,Bering Sea
+257,258,female,171.51,66.2,JSSFP,8,19,5,cutlass,0,1,Finding Nemo,11,Philippine Sea
+258,259,female,165.28,72.7,CCCC,12,10,0,cutlass,1,0,Finding Nemo,9,Yellow Sea
+259,260,other,182.44,81.7,JSSFP,11,17,4,banana,0,12,Finding Nemo,9,Tasman Sea
+260,261,male,179.93,72.2,CCCC,13,0,1,cutlass,1,23,The Incredibles,10,Philippine Sea
+261,262,male,178.91,74.4,CCCC,2,15,6,banana,1,11,"Monsters, Inc.",5,Arabian Sea
+262,263,male,166.41,70.3,CCCC,10,0,3,cutlass,1,24,Monsters University,11,Southern Ocean
+263,264,male,175.04,75.0,CCCC,10,1,3,cutlass,1,25,Inside Out,11,Norwegian Sea
+264,265,male,183.59,82.9,CCCC,15,8,0,cutlass,1,23,Cars 2,12,Labrador Sea
+265,266,male,169.02,75.0,CCCC,9,14,1,cutlass,1,19,Inside Out,8,Gulf of St Lawrence
+266,267,female,166.98,63.3,JSSFP,9,32,7,cutlass,1,0,Toy Story 3,9,Norwegian Sea
+267,268,female,153.28,59.5,CCCC,11,9,5,cutlass,0,1,Up,10,Black Sea
+268,269,female,155.63,56.7,CCCC,9,14,1,cutlass,1,0,Inside Out,11,Barents Sea
+269,270,male,182.72,80.8,JSSFP,11,10,0,cutlass,1,20,Inside Out,12,Tasman Sea
+270,271,female,159.86,61.3,JSSFP,10,12,0,scimitar,1,0,Inside Out,12,Red Sea
+271,272,male,196.75,92.5,CCCC,7,16,0,cutlass,1,13,Toy Story 2,13,Ligurian Sea
+272,273,female,158.51,60.6,CCCC,17,28,1,cutlass,0,0,Cars,7,Ligurian Sea
+273,274,female,161.31,64.9,JSSFP,8,20,1,cutlass,0,0,Finding Nemo,12,Sulu Sea
+274,275,female,176.72,74.7,JSSFP,17,60,1,cutlass,1,1,Inside Out,10,Philippine Sea
+275,276,male,167.53,69.7,CCCC,11,32,1,cutlass,1,21,Inside Out,8,Chilean Sea
+276,277,male,194.53,86.8,CCCC,9,32,1,cutlass,1,5,Brave,13,Norwegian Sea
+277,278,female,156.16,55.1,CCCC,9,0,2,sabre,0,0,"Monsters, Inc.",11,Adriatic Sea
+278,279,female,163.98,60.3,CCCC,10,54,2,cutlass,1,0,Inside Out,13,Tyrrhenian Sea
+279,280,male,197.43,96.2,CCCC,12,33,0,cutlass,1,22,Up,8,Norwegian Sea
+280,281,female,157.46,60.5,JSSFP,14,30,3,cutlass,0,0,Finding Nemo,10,Banda Sea
+281,282,female,164.72,64.4,CCCC,8,5,8,cutlass,1,0,Inside Out,16,Andaman Sea
+282,283,male,182.78,82.0,CCCC,8,35,2,cutlass,1,29,"Monsters, Inc.",13,Mediterranean Sea
+283,284,male,188.27,89.9,CCCC,2,4,7,banana,0,12,Monsters University,8,Labrador Sea
+284,285,male,172.81,76.7,CCCC,4,18,0,scimitar,0,20,The Incredibles,16,Philippine Sea
+285,286,male,161.71,66.0,JSSFP,17,47,2,cutlass,0,34,Finding Nemo,8,Baltic Sea
+286,287,male,189.5,82.8,JSSFP,11,7,1,cutlass,1,19,Inside Out,9,Aegean Sea
+287,288,male,173.62,79.7,CCCC,16,30,2,cutlass,1,24,Up,8,East China Sea
+288,289,female,160.45,61.4,CCCC,4,30,0,sabre,1,0,Inside Out,9,Gulf of Alaska
+289,290,male,182.89,81.8,CCCC,11,1,7,cutlass,1,23,Up,12,Aegean Sea
+290,291,female,172.88,74.9,CCCC,9,40,1,cutlass,0,3,WALL-E,9,Banda Sea
+291,292,male,200.62,101.6,CCCC,9,2,3,sabre,1,14,WALL-E,6,Gulf of St Lawrence
+292,293,male,166.12,71.3,CCCC,8,32,0,cutlass,0,29,Finding Nemo,13,Philippine Sea
+293,294,male,162.47,62.6,CCCC,9,9,1,cutlass,0,26,Up,12,Gulf of St Lawrence
+294,295,female,165.84,62.3,JSSFP,10,78,1,cutlass,0,0,Finding Nemo,8,Sulu Sea
+295,296,female,159.08,66.2,CCCC,6,2,1,scimitar,1,1,The Incredibles,6,Banda Sea
+296,297,female,156.06,55.1,JSSFP,6,51,3,scimitar,1,1,WALL-E,11,Mediterranean Sea
+297,298,female,155.71,51.9,JSSFP,15,15,3,cutlass,1,0,A Bug's Life,12,Java Sea
+298,299,male,183.17,79.3,CCCC,11,9,1,cutlass,1,18,The Incredibles,8,Caribbean Sea
+299,300,male,180.37,71.4,JSSFP,11,0,5,cutlass,1,24,Up,13,Bering Sea
+300,301,female,165.55,61.3,JSSFP,11,37,0,cutlass,1,0,Inside Out,9,Sea of Japan
+301,302,male,186.14,87.4,CCCC,7,1,1,cutlass,1,16,WALL-E,11,Caribbean Sea
+302,303,male,167.0,72.0,CCCC,13,10,4,cutlass,1,23,Inside Out,12,Coral Sea
+303,304,male,184.62,85.8,JSSFP,10,44,1,cutlass,1,13,Inside Out,10,Barents Sea
+304,305,male,151.07,55.6,CCCC,6,3,5,cutlass,0,15,Finding Nemo,7,Bering Sea
+305,306,male,172.25,71.5,JSSFP,10,10,5,cutlass,1,16,Inside Out,10,Philippine Sea
+306,307,female,174.85,71.7,JSSFP,7,18,18,cutlass,1,1,Inside Out,6,Coral Sea
+307,308,male,166.22,66.3,JSSFP,6,53,1,banana,1,18,Monsters University,12,Sulu Sea
+308,309,female,163.73,67.6,CCCC,13,10,1,scimitar,1,1,Up,11,Caspian Sea
+309,310,female,166.91,66.0,JSSFP,11,15,3,cutlass,0,0,Finding Nemo,11,Adriatic Sea
+310,311,female,147.8,60.0,JSSFP,14,33,13,cutlass,1,0,A Bug's Life,9,Chilean Sea
+311,312,female,164.63,62.7,JSSFP,8,11,2,sabre,1,1,Inside Out,10,Adriatic Sea
+312,313,female,144.34,48.9,JSSFP,7,5,9,cutlass,1,1,Up,9,Sea of Japan
+313,314,female,174.65,70.5,CCCC,14,135,0,cutlass,0,0,Finding Nemo,12,Bering Sea
+314,315,female,159.56,54.5,JSSFP,11,18,3,cutlass,0,0,Finding Nemo,16,Philippine Sea
+315,316,male,178.43,74.2,CCCC,3,8,6,cutlass,0,21,Finding Nemo,6,Southern Ocean
+316,317,female,157.56,55.2,JSSFP,11,12,12,cutlass,1,0,Inside Out,14,Tasman Sea
+317,318,female,156.59,55.9,JSSFP,9,66,4,cutlass,0,1,Finding Nemo,12,Sulu Sea
+318,319,female,169.36,71.0,JSSFP,13,12,6,cutlass,0,1,The Incredibles,13,Aegean Sea
+319,320,male,161.57,65.5,CCCC,15,2,3,cutlass,1,40,The Incredibles,9,Tasman Sea
+320,321,female,181.49,79.5,CCCC,14,20,1,cutlass,1,0,Inside Out,5,Mediterranean Sea
+321,322,female,158.35,59.0,CCCC,9,12,1,cutlass,1,0,Inside Out,12,East China Sea
+322,323,other,193.51,88.3,CCCC,12,71,4,cutlass,0,9,Finding Nemo,14,Philippine Sea
+323,324,female,147.54,51.1,CCCC,13,18,1,cutlass,0,0,Finding Nemo,12,Andaman Sea
+324,325,male,189.02,80.9,JSSFP,12,54,3,cutlass,0,17,A Bug's Life,6,Black Sea
+325,326,male,197.98,90.5,CCCC,12,1,1,cutlass,1,26,Inside Out,10,Sulu Sea
+326,327,male,167.51,68.1,CCCC,9,4,2,cutlass,1,23,Up,8,Sulu Sea
+327,328,male,175.63,74.1,CCCC,8,9,1,cutlass,0,31,The Incredibles,13,Yellow Sea
+328,329,female,155.46,59.6,CCCC,13,15,3,cutlass,1,3,WALL-E,8,Java Sea
+329,330,female,156.54,57.0,JSSFP,10,2,0,cutlass,0,1,A Bug's Life,12,Red Sea
+330,331,male,181.84,76.2,CCCC,10,3,0,sabre,1,23,Inside Out,11,Coral Sea
+331,332,female,168.62,73.6,JSSFP,10,22,2,cutlass,1,0,WALL-E,8,Java Sea
+332,333,female,158.27,58.8,CCCC,13,2,1,sabre,0,0,Toy Story 2,15,Labrador Sea
+333,334,female,179.23,77.3,JSSFP,10,6,3,cutlass,0,0,A Bug's Life,15,Celebes Sea
+334,335,female,159.8,56.4,JSSFP,11,11,1,cutlass,1,0,Cars 2,15,Celebes Sea
+335,336,female,158.88,61.1,CCCC,6,22,1,sabre,0,0,Inside Out,2,Aegean Sea
+336,337,male,157.64,62.7,CCCC,8,27,6,scimitar,0,20,Finding Nemo,9,Chilean Sea
+337,338,male,162.19,62.3,CCCC,9,139,1,cutlass,1,22,Toy Story 2,6,Coral Sea
+338,339,male,169.16,71.0,CCCC,13,3,3,scimitar,0,22,WALL-E,11,Celebes Sea
+339,340,female,162.04,59.3,JSSFP,10,6,1,cutlass,0,2,A Bug's Life,10,Gulf of St Lawrence
+340,341,male,179.01,81.9,JSSFP,8,12,3,banana,0,24,Finding Nemo,9,Mediterranean Sea
+341,342,female,156.09,62.5,CCCC,12,7,2,cutlass,1,0,"Monsters, Inc.",11,Yellow Sea
+342,343,male,177.86,77.7,CCCC,7,24,1,cutlass,1,21,Monsters University,5,Celebes Sea
+343,344,female,183.21,87.8,JSSFP,7,7,1,banana,1,1,Up,10,Greenland Sea
+344,345,male,173.07,71.4,CCCC,10,13,2,cutlass,1,19,Inside Out,8,Aegean Sea
+345,346,female,160.42,59.7,CCCC,10,6,1,cutlass,0,1,The Incredibles,7,Yellow Sea
+346,347,male,170.34,69.9,CCCC,13,5,1,cutlass,1,23,Finding Nemo,11,Barents Sea
+347,348,male,175.47,72.3,CCCC,11,9,1,cutlass,1,18,Inside Out,10,Chilean Sea
+348,349,male,196.33,81.4,CCCC,13,13,4,cutlass,1,22,Inside Out,8,Bering Sea
+349,350,male,169.22,70.6,CCCC,16,10,9,cutlass,1,24,Finding Nemo,10,Celebes Sea
+350,351,female,137.43,48.5,JSSFP,12,1,8,cutlass,1,1,Cars 2,9,Tyrrhenian Sea
+351,352,male,186.29,87.4,CCCC,9,45,2,cutlass,0,18,Monsters University,10,Greenland Sea
+352,353,female,174.78,77.2,CCCC,12,11,1,cutlass,1,1,WALL-E,4,Andaman Sea
+353,354,male,184.39,83.9,CCCC,10,5,1,cutlass,1,21,"Monsters, Inc.",11,Celebes Sea
+354,355,female,171.99,75.1,CCCC,9,5,3,cutlass,1,1,Up,3,Gulf of Alaska
+355,356,male,165.42,62.0,CCCC,10,15,1,cutlass,1,13,WALL-E,11,Aegean Sea
+356,357,male,195.14,93.9,CCCC,9,15,0,cutlass,1,21,Inside Out,6,Mediterranean Sea
+357,358,female,160.36,61.2,JSSFP,8,27,4,cutlass,1,0,Inside Out,16,Banda Sea
+358,359,male,167.16,67.2,JSSFP,10,41,8,sabre,1,16,A Bug's Life,11,Baltic Sea
+359,360,male,166.83,66.6,JSSFP,14,32,1,cutlass,0,37,Up,10,Labrador Sea
+360,361,male,177.26,79.5,CCCC,8,5,1,cutlass,1,21,Inside Out,11,Aegean Sea
+361,362,male,180.11,81.2,CCCC,9,1,3,cutlass,0,14,WALL-E,9,Caribbean Sea
+362,363,male,180.02,78.8,CCCC,10,23,4,cutlass,1,20,Inside Out,10,Aegean Sea
+363,364,female,162.52,64.3,JSSFP,8,46,4,cutlass,0,1,Up,14,Banda Sea
+364,365,male,177.32,79.8,CCCC,11,5,1,sabre,0,22,Finding Nemo,9,Baltic Sea
+365,366,female,158.4,61.0,JSSFP,3,23,2,banana,0,1,Finding Nemo,14,Ryukyu Sea
+366,367,female,162.36,64.5,CCCC,10,49,3,cutlass,1,0,Cars 2,12,East China Sea
+367,368,female,162.56,58.5,JSSFP,8,46,0,cutlass,0,1,The Incredibles,10,South China Sea
+368,369,male,164.48,64.1,CCCC,13,16,1,scimitar,1,19,Inside Out,16,Java Sea
+369,370,other,176.64,74.6,JSSFP,13,6,0,cutlass,0,15,The Incredibles,7,Red Sea
+370,371,male,178.78,80.0,CCCC,4,19,3,banana,1,14,Brave,9,Celebes Sea
+371,372,male,178.51,76.6,CCCC,8,31,3,cutlass,1,21,Up,7,Andaman Sea
+372,373,female,177.32,77.2,CCCC,8,84,2,cutlass,0,0,Monsters University,11,Philippine Sea
+373,374,male,180.7,84.7,CCCC,17,6,1,cutlass,1,25,Inside Out,12,East China Sea
+374,375,male,178.34,73.6,JSSFP,12,15,0,cutlass,0,21,Finding Nemo,12,Southern Ocean
+375,376,female,173.28,73.5,JSSFP,3,53,5,cutlass,1,0,Monsters University,10,Gulf of St Lawrence
+376,377,female,179.17,79.2,CCCC,10,45,4,cutlass,0,0,WALL-E,11,Norwegian Sea
+377,378,female,159.0,65.0,CCCC,4,6,7,cutlass,1,0,Monsters University,9,Black Sea
+378,379,female,178.84,80.8,JSSFP,6,4,3,cutlass,1,3,Inside Out,9,Ligurian Sea
+379,380,male,176.72,71.9,CCCC,7,12,6,cutlass,1,23,Inside Out,9,Caribbean Sea
+380,381,male,192.82,86.9,JSSFP,11,15,3,sabre,0,23,The Incredibles,14,Southern Ocean
+381,382,male,168.03,65.9,CCCC,8,4,0,cutlass,1,21,Toy Story,14,Chilean Sea
+382,383,female,159.88,58.8,JSSFP,11,21,14,cutlass,1,0,Inside Out,12,Aegean Sea
+383,384,male,161.71,62.1,CCCC,6,22,3,cutlass,1,9,Cars,13,Andaman Sea
+384,385,male,173.02,69.3,CCCC,13,21,0,cutlass,0,16,WALL-E,8,Aegean Sea
+385,386,female,171.91,73.7,JSSFP,10,25,0,cutlass,0,0,Monsters University,5,East China Sea
+386,387,female,176.91,69.0,CCCC,6,7,0,banana,0,0,Up,12,Labrador Sea
+387,388,male,167.78,64.4,CCCC,8,6,4,banana,1,13,Inside Out,9,Arabian Sea
+388,389,other,177.33,69.6,JSSFP,8,55,3,cutlass,1,15,Inside Out,8,
+389,390,male,155.61,58.6,CCCC,11,14,0,cutlass,0,20,WALL-E,12,Norwegian Sea
+390,391,female,153.19,56.0,JSSFP,8,47,0,cutlass,0,0,WALL-E,7,Norwegian Sea
+391,392,female,162.75,60.1,JSSFP,12,8,1,sabre,1,0,Finding Nemo,6,Gulf of Alaska
+392,393,female,171.87,70.7,CCCC,9,32,3,cutlass,1,0,Inside Out,8,Sea of Japan
+393,394,male,187.62,85.0,CCCC,14,10,4,cutlass,1,19,Inside Out,7,Sulu Sea
+394,395,female,181.77,75.8,JSSFP,9,23,20,cutlass,0,0,Finding Nemo,10,Andaman Sea
+395,396,female,171.1,64.4,JSSFP,10,109,1,cutlass,1,1,WALL-E,12,Baltic Sea
+396,397,female,160.74,65.9,CCCC,6,14,1,cutlass,1,1,WALL-E,8,Tasman Sea
+397,398,female,160.7,57.6,CCCC,11,14,1,cutlass,1,0,Toy Story 2,14,Tasman Sea
+398,399,other,172.49,62.5,CCCC,8,47,1,cutlass,0,7,Finding Nemo,7,Tyrrhenian Sea
+399,400,other,156.07,58.3,CCCC,7,19,2,sabre,1,12,Up,12,Southern Ocean
+400,401,female,163.18,61.9,JSSFP,9,15,0,cutlass,1,0,Inside Out,11,South China Sea
+401,402,female,165.49,67.1,JSSFP,8,35,7,scimitar,0,0,A Bug's Life,12,Chilean Sea
+402,403,male,171.85,73.1,CCCC,13,2,1,cutlass,1,23,Inside Out,8,Mediterranean Sea
+403,404,female,160.21,65.0,JSSFP,3,12,0,sabre,1,1,Up,11,Baltic Sea
+404,405,female,166.87,69.2,CCCC,10,6,0,cutlass,0,0,Up,13,Ligurian Sea
+405,406,female,151.46,61.7,CCCC,1,3,3,sabre,1,1,Up,14,Adriatic Sea
+406,407,female,161.84,61.5,JSSFP,8,24,1,banana,1,1,Monsters University,4,Banda Sea
+407,408,female,160.26,62.2,CCCC,8,24,6,cutlass,1,1,WALL-E,12,Greenland Sea
+408,409,male,200.57,96.7,CCCC,7,10,0,cutlass,1,15,Inside Out,7,Yellow Sea
+409,410,female,165.05,60.7,CCCC,7,0,7,cutlass,1,1,Inside Out,10,South China Sea
+410,411,female,169.67,67.7,CCCC,10,14,8,cutlass,1,0,Inside Out,10,South China Sea
+411,412,female,176.51,77.1,JSSFP,7,52,7,scimitar,1,0,Inside Out,9,Greenland Sea
+412,413,female,162.51,62.6,CCCC,11,3,3,cutlass,1,1,Finding Nemo,8,Baltic Sea
+413,414,female,185.9,80.7,CCCC,9,1,3,cutlass,1,0,"Monsters, Inc.",11,Banda Sea
+414,415,other,174.12,73.4,CCCC,11,4,0,cutlass,1,12,Inside Out,12,Labrador Sea
+415,416,male,170.47,66.4,CCCC,11,15,2,cutlass,1,18,Monsters University,9,Norwegian Sea
+416,417,male,162.35,61.6,CCCC,10,25,4,cutlass,0,19,Finding Nemo,10,Norwegian Sea
+417,418,other,169.84,76.2,CCCC,12,22,0,cutlass,1,12,Inside Out,15,Sulu Sea
+418,419,male,172.78,70.3,CCCC,9,0,2,cutlass,0,21,Toy Story 3,12,Gulf of Mexico
+419,420,female,170.7,68.8,JSSFP,4,10,2,cutlass,1,0,Toy Story 2,8,Tasman Sea
+420,421,female,171.92,68.6,CCCC,15,3,3,cutlass,0,1,"Monsters, Inc.",11,Tyrrhenian Sea
+421,422,female,181.25,78.3,CCCC,7,4,4,cutlass,1,1,WALL-E,10,Gulf of Mexico
+422,423,female,144.93,45.6,CCCC,12,60,9,cutlass,1,1,A Bug's Life,9,Mediterranean Sea
+423,424,female,161.54,61.3,JSSFP,15,7,4,cutlass,0,1,Finding Nemo,11,Black Sea
+424,425,male,183.5,88.3,JSSFP,14,40,1,cutlass,1,18,Inside Out,9,Red Sea
+425,426,male,171.57,78.7,CCCC,11,3,2,cutlass,0,22,Finding Nemo,16,Red Sea
+426,427,female,172.98,65.9,JSSFP,7,5,3,cutlass,0,0,Finding Nemo,12,Barents Sea
+427,428,female,171.88,73.7,CCCC,11,18,2,cutlass,1,0,Inside Out,9,Ryukyu Sea
+428,429,male,195.08,88.9,CCCC,4,28,0,banana,1,8,Inside Out,12,Sea of Japan
+429,430,male,201.31,98.6,CCCC,4,7,1,cutlass,1,14,WALL-E,9,Norwegian Sea
+430,431,male,172.49,74.5,CCCC,7,23,1,banana,0,20,Toy Story,4,Aegean Sea
+431,432,female,160.81,64.0,CCCC,9,25,2,cutlass,1,0,Inside Out,12,Chilean Sea
+432,433,male,196.28,90.2,JSSFP,5,12,0,cutlass,1,15,Inside Out,14,Southern Ocean
+433,434,male,180.6,71.6,JSSFP,12,10,1,cutlass,1,12,Monsters University,11,Labrador Sea
+434,435,female,148.75,57.0,CCCC,10,9,4,cutlass,1,1,Inside Out,12,Sea of Japan
+435,436,female,143.67,56.1,JSSFP,4,37,8,banana,1,0,Inside Out,15,Gulf of Alaska
+436,437,female,168.49,72.2,CCCC,13,32,1,cutlass,1,1,Inside Out,6,Black Sea
+437,438,male,183.14,81.5,CCCC,8,4,2,cutlass,1,23,Inside Out,15,Mediterranean Sea
+438,439,male,177.32,75.7,CCCC,11,10,1,cutlass,1,27,Inside Out,11,Gulf of Mexico
+439,440,male,168.98,70.3,JSSFP,17,9,3,banana,0,33,Up,9,Caribbean Sea
+440,441,female,155.48,64.5,CCCC,14,12,0,cutlass,1,1,Inside Out,11,Gulf of Alaska
+441,442,male,170.64,68.8,CCCC,7,6,8,cutlass,1,18,Cars,4,Bering Sea
+442,443,male,169.52,73.0,JSSFP,8,26,3,cutlass,1,19,Inside Out,15,Red Sea
+443,444,male,188.67,81.2,CCCC,8,2,2,cutlass,1,13,Inside Out,7,Adriatic Sea
+444,445,female,167.91,70.4,CCCC,9,2,13,cutlass,1,0,WALL-E,12,Norwegian Sea
+445,446,male,180.37,76.6,CCCC,4,4,1,sabre,1,20,"Monsters, Inc.",10,Baltic Sea
+446,447,female,169.93,71.3,JSSFP,7,36,3,sabre,0,0,Finding Nemo,11,Sulu Sea
+447,448,male,172.66,66.7,CCCC,6,5,2,sabre,1,16,Inside Out,12,Banda Sea
+448,449,male,158.44,63.4,JSSFP,9,3,1,scimitar,1,20,"Monsters, Inc.",11,Aegean Sea
+449,450,other,167.02,62.1,CCCC,2,16,1,sabre,1,4,Inside Out,12,Tyrrhenian Sea
+450,451,male,176.02,70.9,CCCC,8,9,0,cutlass,1,25,Up,6,Mediterranean Sea
+451,452,female,168.64,59.2,JSSFP,7,12,5,cutlass,0,1,Monsters University,13,Arabian Sea
+452,453,female,170.81,71.7,CCCC,6,2,1,scimitar,0,0,Monsters University,11,Ligurian Sea
+453,454,female,153.23,44.4,JSSFP,8,16,6,cutlass,1,0,Toy Story 3,11,Baltic Sea
+454,455,male,173.92,67.5,JSSFP,9,33,8,cutlass,1,19,The Incredibles,13,Celebes Sea
+455,456,male,165.9,67.6,JSSFP,9,5,1,cutlass,1,24,Monsters University,16,Adriatic Sea
+456,457,male,169.44,75.7,CCCC,6,13,4,cutlass,1,23,WALL-E,13,Gulf of Mexico
+457,458,female,157.06,52.8,CCCC,10,27,2,cutlass,1,2,Inside Out,10,Aegean Sea
+458,459,male,180.96,76.6,CCCC,10,13,1,cutlass,1,24,Inside Out,11,Norwegian Sea
+459,460,female,185.91,83.6,CCCC,9,3,3,cutlass,0,0,Finding Nemo,15,East China Sea
+460,461,female,160.33,54.5,CCCC,13,147,3,cutlass,1,0,"Monsters, Inc.",3,Chilean Sea
+461,462,female,155.25,61.1,CCCC,4,19,3,cutlass,1,0,Inside Out,10,Norwegian Sea
+462,463,male,173.7,76.0,CCCC,12,53,1,cutlass,1,20,Inside Out,7,East China Sea
+463,464,male,183.4,84.2,CCCC,3,7,2,sabre,1,13,WALL-E,10,Caribbean Sea
+464,465,male,158.58,61.0,CCCC,10,5,1,cutlass,1,20,Up,19,Gulf of Mexico
+465,466,female,154.13,55.5,JSSFP,9,34,1,cutlass,0,0,Inside Out,8,Ryukyu Sea
+466,467,female,158.21,47.6,CCCC,2,1,1,banana,1,0,Inside Out,12,Greenland Sea
+467,468,female,149.71,55.2,CCCC,9,5,3,cutlass,0,0,Toy Story,9,Norwegian Sea
+468,469,male,195.06,94.2,CCCC,9,36,1,cutlass,0,21,Finding Nemo,10,Aegean Sea
+469,470,male,163.9,65.1,CCCC,15,1,2,cutlass,1,23,Toy Story 2,8,Red Sea
+470,471,male,185.07,79.8,CCCC,8,80,1,cutlass,0,14,Monsters University,8,Chilean Sea
+471,472,male,172.86,71.2,CCCC,11,8,1,cutlass,0,19,Finding Nemo,9,Java Sea
+472,473,male,178.26,75.5,CCCC,9,35,8,cutlass,0,18,Finding Nemo,8,Andaman Sea
+473,474,male,199.34,97.6,CCCC,13,67,3,cutlass,1,28,Monsters University,9,Labrador Sea
+474,475,male,157.38,57.0,CCCC,9,10,0,cutlass,0,12,Up,4,Southern Ocean
+475,476,female,182.03,76.6,JSSFP,10,4,1,cutlass,0,0,Monsters University,14,Baltic Sea
+476,477,male,168.3,75.4,CCCC,9,5,1,cutlass,1,15,Monsters University,7,Ligurian Sea
+477,478,male,175.82,76.7,CCCC,8,12,6,cutlass,0,15,Toy Story 2,13,Sulu Sea
+478,479,female,160.75,60.7,CCCC,6,5,1,cutlass,0,0,Monsters University,11,Southern Ocean
+479,480,male,166.53,62.4,CCCC,12,12,1,cutlass,0,28,Finding Nemo,8,Sulu Sea
+480,481,female,150.3,51.6,CCCC,10,10,1,sabre,1,1,Up,9,Labrador Sea
+481,482,male,166.6,65.9,CCCC,10,13,3,cutlass,1,15,Inside Out,7,Ligurian Sea
+482,483,female,166.94,62.2,JSSFP,7,19,0,scimitar,0,0,Finding Nemo,8,Mediterranean Sea
+483,484,male,176.31,78.7,CCCC,9,16,2,cutlass,0,23,"Monsters, Inc.",15,East China Sea
+484,485,male,173.5,82.6,CCCC,12,3,0,cutlass,0,30,Finding Nemo,8,Yellow Sea
+485,486,male,174.57,67.7,JSSFP,7,3,2,cutlass,0,16,Finding Nemo,12,Barents Sea
+486,487,male,175.33,75.1,CCCC,15,4,1,cutlass,0,24,Cars 2,14,Gulf of St Lawrence
+487,488,other,174.43,71.9,CCCC,4,13,2,cutlass,1,13,Inside Out,13,Arabian Sea
+488,489,female,148.32,54.0,CCCC,12,32,3,cutlass,1,2,Inside Out,11,East China Sea
+489,490,male,184.84,86.3,CCCC,12,5,1,cutlass,1,22,Up,9,Sulu Sea
+490,491,male,183.11,87.8,CCCC,12,20,2,cutlass,1,24,Inside Out,15,Gulf of St Lawrence
+491,492,male,178.42,75.0,CCCC,7,14,0,cutlass,0,14,Finding Nemo,6,Mediterranean Sea
+492,493,male,159.6,68.0,CCCC,6,134,6,cutlass,1,17,Inside Out,9,Ryukyu Sea
+493,494,female,174.52,76.6,JSSFP,6,11,1,cutlass,1,1,The Incredibles,4,Baltic Sea
+494,495,female,169.71,64.7,CCCC,14,33,3,cutlass,1,0,Inside Out,9,Yellow Sea
+495,496,male,174.26,74.3,CCCC,10,17,0,sabre,0,31,Finding Nemo,11,Southern Ocean
+496,497,female,173.75,65.9,JSSFP,14,2,0,cutlass,1,0,Inside Out,9,Sulu Sea
+497,498,male,190.24,84.3,CCCC,8,3,2,cutlass,0,6,Finding Nemo,12,Banda Sea
+498,499,male,183.95,72.9,CCCC,7,28,12,cutlass,1,10,The Incredibles,10,Sea of Japan
+499,500,female,164.41,68.7,JSSFP,10,129,16,cutlass,1,0,Inside Out,8,Java Sea
+500,501,female,168.06,63.8,JSSFP,8,13,1,cutlass,1,0,Inside Out,16,Andaman Sea
+501,502,male,180.97,81.7,JSSFP,8,72,14,cutlass,1,19,Up,10,Baltic Sea
+502,503,male,172.55,68.7,JSSFP,11,26,6,cutlass,1,29,Inside Out,9,Norwegian Sea
+503,504,female,158.21,56.8,CCCC,10,11,3,cutlass,1,0,Toy Story 3,13,Caspian Sea
+504,505,female,156.34,62.6,CCCC,6,74,2,banana,1,0,Monsters University,14,Baltic Sea
+505,506,male,195.36,90.4,CCCC,5,21,3,cutlass,1,9,Monsters University,13,South China Sea
+506,507,male,164.53,61.9,CCCC,10,3,5,cutlass,1,16,Up,5,Java Sea
+507,508,male,182.51,81.1,CCCC,8,39,4,cutlass,0,22,Up,7,Gulf of St Lawrence
+508,509,female,160.18,66.5,JSSFP,7,54,0,cutlass,0,0,Monsters University,11,Labrador Sea
+509,510,male,171.92,68.5,CCCC,12,53,1,cutlass,0,25,Finding Nemo,8,Sea of Japan
+510,511,female,156.89,62.9,CCCC,8,8,1,cutlass,0,0,Monsters University,12,Philippine Sea
+511,512,male,192.45,84.2,CCCC,7,1,0,cutlass,1,17,Up,10,Gulf of Alaska
+512,513,female,138.52,49.3,CCCC,12,51,0,cutlass,1,0,The Incredibles,7,Adriatic Sea
+513,514,female,176.61,76.2,CCCC,7,5,2,banana,0,1,Monsters University,11,Black Sea
+514,515,female,157.34,57.0,CCCC,11,29,4,sabre,1,0,Monsters University,11,Coral Sea
+515,516,male,199.47,93.4,CCCC,8,14,1,cutlass,1,21,Monsters University,10,Norwegian Sea
+516,517,female,163.13,58.4,CCCC,10,5,1,cutlass,1,0,"Monsters, Inc.",11,Black Sea
+517,518,female,153.52,53.3,CCCC,9,21,3,sabre,1,0,Monsters University,18,Java Sea
+518,519,male,182.27,77.9,CCCC,11,11,2,cutlass,1,28,"Monsters, Inc.",8,Chilean Sea
+519,520,female,158.68,62.3,JSSFP,10,38,4,cutlass,0,0,Inside Out,7,Arabian Sea
+520,521,male,158.35,53.8,CCCC,5,18,1,cutlass,1,20,Inside Out,8,Banda Sea
+521,522,female,166.2,66.0,JSSFP,11,8,3,scimitar,1,0,"Monsters, Inc.",14,Celebes Sea
+522,523,male,169.74,67.7,CCCC,15,1,0,cutlass,1,29,Up,15,Ligurian Sea
+523,524,other,163.13,64.3,JSSFP,11,27,1,cutlass,1,19,Inside Out,8,Greenland Sea
+524,525,female,169.18,66.4,CCCC,4,18,0,cutlass,1,0,The Incredibles,5,Celebes Sea
+525,526,male,171.5,71.1,CCCC,5,13,3,banana,1,11,"Monsters, Inc.",9,Sea of Japan
+526,527,male,179.23,84.4,CCCC,9,7,1,cutlass,1,23,"Monsters, Inc.",10,Yellow Sea
+527,528,female,150.74,52.5,CCCC,9,10,2,cutlass,1,0,The Incredibles,5,Greenland Sea
+528,529,other,161.49,63.2,CCCC,9,36,1,cutlass,0,18,Finding Nemo,12,Yellow Sea
+529,530,male,172.46,66.1,JSSFP,11,46,2,cutlass,0,27,Up,8,Mediterranean Sea
+530,531,female,162.47,68.6,JSSFP,11,16,4,cutlass,1,0,Inside Out,10,Bering Sea
+531,532,male,184.63,81.2,CCCC,11,52,5,cutlass,1,20,WALL-E,12,East China Sea
+532,533,male,189.22,86.4,JSSFP,8,6,3,cutlass,1,20,Monsters University,14,Tasman Sea
+533,534,female,148.47,53.0,JSSFP,12,39,4,cutlass,1,0,Monsters University,10,Tasman Sea
+534,535,male,172.55,77.1,CCCC,14,3,4,cutlass,0,22,WALL-E,9,Greenland Sea
+535,536,male,191.63,90.1,CCCC,7,16,3,cutlass,0,20,Finding Nemo,8,Barents Sea
+536,537,female,171.29,66.7,CCCC,10,17,3,cutlass,1,0,Toy Story 3,8,Norwegian Sea
+537,538,male,173.52,68.2,CCCC,12,4,0,cutlass,1,16,Up,14,Philippine Sea
+538,539,female,172.31,69.3,CCCC,9,3,1,sabre,0,1,Finding Nemo,9,Red Sea
+539,540,female,167.84,76.4,JSSFP,6,21,1,cutlass,1,0,Up,17,Adriatic Sea
+540,541,female,148.83,52.1,JSSFP,9,19,9,cutlass,1,2,"Monsters, Inc.",10,Gulf of Alaska
+541,542,male,182.62,81.2,CCCC,5,33,2,cutlass,1,23,Inside Out,7,East China Sea
+542,543,female,176.13,71.4,CCCC,9,1,1,cutlass,1,1,The Incredibles,4,Ligurian Sea
+543,544,male,187.04,87.3,CCCC,11,36,1,cutlass,1,15,Inside Out,11,Bering Sea
+544,545,female,167.8,57.1,JSSFP,11,10,0,cutlass,1,1,Up,4,Gulf of Mexico
+545,546,other,169.39,69.9,CCCC,2,27,8,scimitar,1,7,The Incredibles,10,Arabian Sea
+546,547,other,169.76,73.9,JSSFP,12,64,2,cutlass,0,10,Finding Nemo,7,Black Sea
+547,548,female,166.94,65.6,CCCC,6,0,2,scimitar,1,0,Up,10,Sea of Japan
+548,549,other,171.78,69.8,CCCC,8,33,5,cutlass,1,18,Cars,11,Norwegian Sea
+549,550,male,179.01,80.6,CCCC,8,8,4,cutlass,1,14,Toy Story 2,2,Bering Sea
+550,551,female,177.0,66.1,CCCC,5,6,1,cutlass,0,1,WALL-E,8,Sulu Sea
+551,552,female,175.87,78.7,CCCC,10,37,3,cutlass,0,1,A Bug's Life,11,Yellow Sea
+552,553,female,163.57,67.1,CCCC,9,8,0,cutlass,1,0,Up,8,Chilean Sea
+553,554,female,167.67,66.1,CCCC,9,17,3,cutlass,1,0,WALL-E,14,Tyrrhenian Sea
+554,555,female,172.41,71.6,CCCC,7,18,0,cutlass,0,0,Up,11,Sulu Sea
+555,556,male,168.05,70.6,CCCC,14,33,5,cutlass,0,27,Toy Story,12,Philippine Sea
+556,557,male,180.91,72.3,CCCC,11,10,3,cutlass,1,19,Inside Out,12,Java Sea
+557,558,male,164.23,68.2,CCCC,8,1,2,cutlass,1,20,Ratatouille,9,Chilean Sea
+558,559,female,161.02,66.6,JSSFP,13,57,2,cutlass,1,0,Inside Out,8,Andaman Sea
+559,560,female,157.67,55.8,CCCC,9,39,6,cutlass,0,0,Finding Nemo,9,Philippine Sea
+560,561,male,188.89,85.2,CCCC,8,14,4,cutlass,1,28,Inside Out,6,Labrador Sea
+561,562,male,165.95,66.4,CCCC,7,3,10,cutlass,1,23,Up,10,Gulf of Mexico
+562,563,male,193.82,87.2,CCCC,0,4,1,cutlass,1,0,Monsters University,8,Arabian Sea
+563,564,male,189.81,91.9,CCCC,12,39,0,scimitar,0,25,WALL-E,10,Chilean Sea
+564,565,male,171.16,74.6,CCCC,10,7,1,sabre,1,19,Inside Out,7,Greenland Sea
+565,566,male,174.57,75.4,CCCC,11,22,2,cutlass,1,13,Up,15,Chilean Sea
+566,567,female,178.34,83.1,CCCC,11,14,1,cutlass,1,0,Toy Story 2,4,Tyrrhenian Sea
+567,568,male,164.6,68.2,CCCC,12,36,0,cutlass,0,17,Finding Nemo,7,Bering Sea
+568,569,female,171.86,70.5,CCCC,14,8,1,cutlass,0,1,Up,10,Bering Sea
+569,570,male,177.9,75.4,CCCC,5,12,8,cutlass,1,28,Inside Out,8,Sulu Sea
+570,571,female,159.42,61.2,JSSFP,10,5,3,cutlass,1,0,Monsters University,13,East China Sea
+571,572,female,153.05,57.3,JSSFP,16,56,3,scimitar,1,0,Inside Out,13,Barents Sea
+572,573,female,177.11,79.2,CCCC,9,3,3,cutlass,0,1,Finding Nemo,4,Aegean Sea
+573,574,male,168.89,68.2,CCCC,11,77,2,cutlass,0,22,Finding Nemo,8,Aegean Sea
+574,575,female,156.42,52.3,JSSFP,6,5,1,cutlass,1,1,Toy Story 2,18,Sulu Sea
+575,576,male,192.92,88.1,CCCC,11,30,0,cutlass,1,27,The Incredibles,8,Labrador Sea
+576,577,female,176.26,79.8,CCCC,8,19,6,cutlass,0,0,The Incredibles,20,Bering Sea
+577,578,male,169.74,61.7,CCCC,12,17,14,cutlass,1,22,Inside Out,14,Tasman Sea
+578,579,female,150.92,58.5,CCCC,14,4,3,cutlass,1,0,Inside Out,6,Arabian Sea
+579,580,female,146.93,53.4,CCCC,10,8,1,cutlass,1,1,Inside Out,8,Mediterranean Sea
+580,581,male,178.12,73.0,JSSFP,3,15,4,scimitar,1,6,Up,8,Baltic Sea
+581,582,female,177.83,74.9,JSSFP,13,22,2,cutlass,1,0,Inside Out,9,Norwegian Sea
+582,583,male,179.81,83.4,CCCC,6,0,1,banana,1,8,Inside Out,11,Greenland Sea
+583,584,male,167.65,71.8,CCCC,4,28,6,cutlass,1,6,Inside Out,11,Caribbean Sea
+584,585,other,184.81,79.5,CCCC,10,0,4,cutlass,0,21,Finding Nemo,11,Gulf of Mexico
+585,586,male,167.82,63.4,JSSFP,11,9,1,cutlass,0,18,Up,12,Tasman Sea
+586,587,male,169.67,72.0,CCCC,9,8,0,cutlass,1,19,The Incredibles,10,Greenland Sea
+587,588,male,180.6,84.5,CCCC,11,21,2,cutlass,1,18,Inside Out,12,Norwegian Sea
+588,589,male,179.33,79.9,CCCC,13,15,0,cutlass,0,26,Finding Nemo,15,Celebes Sea
+589,590,male,163.93,71.3,CCCC,9,19,1,cutlass,1,20,A Bug's Life,13,Gulf of Alaska
+590,591,female,156.16,56.1,CCCC,6,27,3,cutlass,0,1,"Monsters, Inc.",7,Chilean Sea
+591,592,male,188.69,95.1,CCCC,3,46,0,banana,1,11,Inside Out,9,Ligurian Sea
+592,593,male,169.13,67.4,JSSFP,9,5,0,sabre,1,22,Inside Out,9,Ryukyu Sea
+593,594,female,165.39,67.5,CCCC,14,17,0,sabre,1,0,Inside Out,16,Arabian Sea
+594,595,female,164.45,65.5,JSSFP,6,34,4,scimitar,1,1,Inside Out,6,Tyrrhenian Sea
+595,596,male,169.04,68.5,CCCC,7,13,2,cutlass,0,13,Finding Nemo,10,Celebes Sea
+596,597,female,162.72,60.9,CCCC,4,12,1,scimitar,1,0,Inside Out,10,Arabian Sea
+597,598,female,159.3,59.6,JSSFP,12,50,0,cutlass,0,0,WALL-E,14,Gulf of St Lawrence
+598,599,female,149.11,53.6,JSSFP,2,28,11,banana,0,1,WALL-E,11,Caribbean Sea
+599,600,male,190.79,89.1,CCCC,11,30,0,cutlass,0,25,Cars,8,Sulu Sea
+600,601,female,169.73,70.7,CCCC,13,2,1,cutlass,1,0,The Incredibles,10,Mediterranean Sea
+601,602,female,177.86,76.6,CCCC,4,42,2,sabre,0,0,Finding Nemo,6,Aegean Sea
+602,603,male,177.92,71.4,CCCC,6,1,2,cutlass,0,15,"Monsters, Inc.",13,Tyrrhenian Sea
+603,604,female,166.32,76.9,JSSFP,6,1,3,scimitar,1,0,Inside Out,7,Southern Ocean
+604,605,male,183.73,70.9,CCCC,9,3,1,cutlass,0,15,Up,5,Ligurian Sea
+605,606,male,167.22,68.2,CCCC,9,5,5,cutlass,0,17,Finding Nemo,17,Black Sea
+606,607,male,160.45,57.2,JSSFP,6,21,2,cutlass,1,15,Inside Out,4,Andaman Sea
+607,608,male,195.42,86.0,CCCC,10,22,1,cutlass,1,23,Toy Story 2,13,Arabian Sea
+608,609,female,160.26,68.7,JSSFP,9,45,7,cutlass,1,0,Inside Out,12,Gulf of St Lawrence
+609,610,male,189.77,83.1,CCCC,10,16,0,cutlass,0,21,Finding Nemo,12,Sea of Japan
+610,611,female,173.01,67.3,JSSFP,4,47,7,cutlass,1,1,Up,11,Caspian Sea
+611,612,male,190.74,85.8,CCCC,9,11,0,cutlass,0,22,Finding Nemo,10,Adriatic Sea
+612,613,male,177.04,71.8,JSSFP,8,126,0,cutlass,0,27,Finding Nemo,14,Black Sea
+613,614,female,171.15,72.0,CCCC,6,13,2,cutlass,1,0,Brave,12,Yellow Sea
+614,615,female,162.35,63.1,CCCC,12,6,2,cutlass,1,0,Monsters University,11,Bering Sea
+615,616,female,151.56,56.8,JSSFP,10,50,4,cutlass,1,0,Inside Out,11,Yellow Sea
+616,617,male,163.31,62.6,CCCC,6,5,0,cutlass,1,17,Inside Out,10,Ryukyu Sea
+617,618,male,166.26,69.7,CCCC,6,3,7,cutlass,0,13,Finding Nemo,11,Arabian Sea
+618,619,male,184.16,75.9,JSSFP,10,23,1,cutlass,0,25,Finding Nemo,9,Philippine Sea
+619,620,male,195.19,90.1,CCCC,12,10,8,cutlass,1,30,Inside Out,12,Yellow Sea
+620,621,male,175.2,72.7,JSSFP,6,23,8,cutlass,0,19,Finding Nemo,7,Yellow Sea
+621,622,female,170.44,64.0,JSSFP,11,1,27,cutlass,1,0,WALL-E,9,South China Sea
+622,623,female,163.18,65.6,CCCC,8,28,0,sabre,1,0,Inside Out,13,Baltic Sea
+623,624,female,173.38,66.3,JSSFP,6,35,0,cutlass,1,0,Monsters University,10,Sea of Japan
+624,625,female,158.96,68.5,JSSFP,4,18,7,scimitar,1,0,Inside Out,13,Andaman Sea
+625,626,male,178.09,81.1,CCCC,3,8,1,cutlass,1,15,Monsters University,7,Bering Sea
+626,627,male,185.46,79.3,CCCC,8,17,1,sabre,0,20,Finding Nemo,7,Adriatic Sea
+627,628,female,166.38,71.3,JSSFP,6,8,1,cutlass,1,1,Inside Out,13,Baltic Sea
+628,629,female,172.66,74.2,CCCC,13,11,3,cutlass,0,0,Up,11,Caribbean Sea
+629,630,male,179.01,78.0,CCCC,13,36,3,cutlass,1,23,Inside Out,14,Philippine Sea
+630,631,male,188.83,84.8,JSSFP,6,44,1,cutlass,0,13,Finding Nemo,9,Banda Sea
+631,632,male,174.6,69.6,CCCC,17,1,1,cutlass,0,22,The Incredibles,6,Arabian Sea
+632,633,male,163.83,67.5,CCCC,10,4,4,cutlass,0,23,Up,10,Aegean Sea
+633,634,male,166.96,66.9,JSSFP,13,13,2,cutlass,0,15,Finding Nemo,14,Gulf of St Lawrence
+634,635,male,168.38,62.9,CCCC,15,4,2,cutlass,1,28,Toy Story 2,7,East China Sea
+635,636,male,184.35,85.0,CCCC,8,36,1,cutlass,0,24,Finding Nemo,8,South China Sea
+636,637,other,168.94,60.2,CCCC,15,12,4,cutlass,0,31,Monsters University,14,Java Sea
+637,638,female,150.98,56.5,CCCC,3,135,12,cutlass,1,0,Inside Out,5,Tasman Sea
+638,639,female,165.1,64.5,JSSFP,18,66,0,cutlass,0,0,Cars 2,9,Aegean Sea
+639,640,male,187.88,81.0,JSSFP,8,35,11,cutlass,1,17,Inside Out,8,Banda Sea
+640,641,female,181.81,81.8,CCCC,9,17,0,cutlass,0,1,WALL-E,12,Andaman Sea
+641,642,female,161.43,54.1,JSSFP,9,1,6,cutlass,1,0,Toy Story 2,9,Sea of Japan
+642,643,female,158.58,57.3,JSSFP,10,1,2,cutlass,1,1,Inside Out,9,East China Sea
+643,644,female,155.78,61.7,CCCC,14,19,2,cutlass,1,0,Up,12,Tyrrhenian Sea
+644,645,male,195.55,92.3,CCCC,6,1,2,cutlass,0,9,Up,14,Philippine Sea
+645,646,male,176.15,73.6,JSSFP,11,5,1,scimitar,1,20,The Incredibles,8,Ligurian Sea
+646,647,female,164.93,57.3,JSSFP,11,22,1,cutlass,0,0,Finding Nemo,12,East China Sea
+647,648,female,162.86,67.7,JSSFP,12,58,1,cutlass,0,0,Up,7,Aegean Sea
+648,649,other,160.56,65.1,JSSFP,11,35,2,cutlass,0,25,Toy Story 2,11,Coral Sea
+649,650,other,153.08,50.9,JSSFP,8,17,5,cutlass,0,17,Finding Nemo,8,South China Sea
+650,651,female,159.67,62.7,JSSFP,14,101,9,cutlass,1,0,Up,8,Banda Sea
+651,652,male,161.27,57.9,CCCC,7,1,3,cutlass,0,15,Monsters University,12,Gulf of Mexico
+652,653,female,173.92,74.3,JSSFP,14,11,2,cutlass,1,1,"Monsters, Inc.",11,Norwegian Sea
+653,654,female,149.17,55.7,JSSFP,8,30,1,cutlass,1,1,Inside Out,15,Caribbean Sea
+654,655,male,168.7,71.6,CCCC,9,17,9,cutlass,1,27,Inside Out,5,Banda Sea
+655,656,female,172.17,68.8,JSSFP,15,94,9,cutlass,1,0,Inside Out,14,Arabian Sea
+656,657,female,173.09,76.2,JSSFP,8,14,7,cutlass,1,0,Up,12,Ryukyu Sea
+657,658,male,192.26,94.5,CCCC,9,91,1,cutlass,0,15,Finding Nemo,8,Ryukyu Sea
+658,659,male,193.96,91.4,CCCC,1,1,4,banana,1,14,Monsters University,6,Ryukyu Sea
+659,660,male,169.34,66.8,CCCC,11,18,1,cutlass,1,25,Inside Out,11,Red Sea
+660,661,male,176.01,74.3,CCCC,9,6,1,cutlass,0,15,Finding Nemo,14,Bering Sea
+661,662,female,169.65,74.4,JSSFP,10,43,2,cutlass,1,0,Monsters University,10,Labrador Sea
+662,663,male,179.46,77.3,CCCC,12,21,2,cutlass,0,23,Finding Nemo,14,Chilean Sea
+663,664,male,169.81,71.4,CCCC,5,51,1,cutlass,0,28,Up,11,Coral Sea
+664,665,male,169.45,65.4,CCCC,11,2,4,cutlass,1,16,Up,15,Sea of Japan
+665,666,female,170.65,67.3,CCCC,6,3,2,sabre,1,0,Monsters University,6,Aegean Sea
+666,667,male,182.91,80.6,CCCC,7,45,1,cutlass,1,21,Inside Out,6,Tasman Sea
+667,668,male,148.68,49.7,CCCC,7,26,0,scimitar,1,22,Up,11,Greenland Sea
+668,669,female,140.39,44.6,CCCC,13,4,10,cutlass,0,0,Brave,11,Caribbean Sea
+669,670,male,170.11,69.5,CCCC,1,6,1,cutlass,1,12,Inside Out,10,Labrador Sea
+670,671,male,191.95,84.7,CCCC,10,7,3,cutlass,1,23,Inside Out,9,Caribbean Sea
+671,672,female,162.6,61.5,CCCC,8,1,2,cutlass,1,0,A Bug's Life,13,Sea of Japan
+672,673,female,159.83,60.1,JSSFP,9,138,1,cutlass,1,0,Toy Story,12,Gulf of Alaska
+673,674,female,157.72,64.8,CCCC,3,101,4,banana,1,0,Monsters University,10,Baltic Sea
+674,675,female,159.13,62.8,JSSFP,8,57,3,cutlass,1,1,Inside Out,16,Arabian Sea
+675,676,female,147.98,54.9,CCCC,11,7,1,cutlass,0,0,The Incredibles,8,Adriatic Sea
+676,677,male,160.64,60.0,CCCC,10,8,1,cutlass,0,8,Finding Nemo,13,Chilean Sea
+677,678,male,189.52,89.0,JSSFP,6,6,6,cutlass,0,20,Finding Nemo,11,Banda Sea
+678,679,male,160.54,57.3,CCCC,10,26,2,cutlass,0,25,Up,11,Gulf of St Lawrence
+679,680,female,166.28,64.7,CCCC,5,16,5,scimitar,1,0,Inside Out,14,Tasman Sea
+680,681,female,149.05,54.1,CCCC,12,86,2,cutlass,0,1,Cars,11,Yellow Sea
+681,682,female,177.88,77.2,JSSFP,12,11,5,cutlass,1,0,Inside Out,6,Black Sea
+682,683,female,163.22,67.8,JSSFP,16,13,2,cutlass,1,1,Inside Out,7,Adriatic Sea
+683,684,male,186.63,85.6,CCCC,7,44,4,cutlass,1,25,Inside Out,7,Sulu Sea
+684,685,male,165.21,71.2,CCCC,10,16,3,cutlass,1,17,Toy Story,11,Sulu Sea
+685,686,male,182.73,76.1,CCCC,3,3,2,banana,1,9,Inside Out,4,Baltic Sea
+686,687,male,175.74,70.2,CCCC,14,33,1,cutlass,1,18,Inside Out,8,Andaman Sea
+687,688,female,164.3,60.6,CCCC,9,37,1,cutlass,1,0,Inside Out,11,Southern Ocean
+688,689,other,178.24,72.4,CCCC,9,9,1,cutlass,1,18,Monsters University,11,Caribbean Sea
+689,690,female,156.46,53.4,JSSFP,11,10,2,sabre,0,1,Finding Nemo,5,Tasman Sea
+690,691,male,168.4,65.2,CCCC,4,11,11,sabre,1,14,Cars 2,7,Arabian Sea
+691,692,female,152.9,53.3,JSSFP,10,41,12,cutlass,1,1,Cars 2,8,Gulf of St Lawrence
+692,693,female,154.28,57.2,CCCC,9,12,0,cutlass,1,1,Up,8,Aegean Sea
+693,694,female,155.49,53.0,JSSFP,11,62,3,sabre,0,1,Finding Nemo,16,Greenland Sea
+694,695,female,171.87,67.2,CCCC,6,22,1,cutlass,1,2,Inside Out,13,Banda Sea
+695,696,male,182.34,78.8,JSSFP,10,37,6,cutlass,1,23,Inside Out,10,Coral Sea
+696,697,female,162.41,60.9,CCCC,11,64,1,scimitar,1,1,The Incredibles,10,Gulf of Mexico
+697,698,female,166.38,69.3,CCCC,10,29,17,cutlass,0,0,Up,8,Red Sea
+698,699,female,159.75,61.2,CCCC,2,68,0,banana,0,1,Up,10,Black Sea
+699,700,male,177.63,76.9,CCCC,8,5,1,cutlass,1,15,WALL-E,13,Philippine Sea
+700,701,other,163.49,57.6,CCCC,5,46,3,sabre,0,16,WALL-E,13,Labrador Sea
+701,702,male,181.46,75.9,CCCC,12,20,3,cutlass,1,24,Inside Out,8,Caribbean Sea
+702,703,other,187.61,89.3,JSSFP,12,80,3,cutlass,1,21,Brave,10,Arabian Sea
+703,704,female,153.29,56.4,JSSFP,10,23,6,cutlass,1,0,The Incredibles,11,Caribbean Sea
+704,705,female,163.56,60.2,JSSFP,10,14,1,cutlass,0,0,Monsters University,11,Baltic Sea
+705,706,female,161.69,62.9,CCCC,13,58,0,cutlass,1,0,Toy Story,11,Philippine Sea
+706,707,female,161.15,64.1,JSSFP,13,0,5,cutlass,1,1,WALL-E,16,Gulf of Alaska
+707,708,other,165.81,68.7,CCCC,8,1,2,cutlass,0,13,The Incredibles,15,Caspian Sea
+708,709,female,162.11,59.8,JSSFP,13,9,2,cutlass,0,0,Finding Nemo,13,Tyrrhenian Sea
+709,710,female,177.45,74.5,CCCC,15,0,2,cutlass,1,2,Up,12,Labrador Sea
+710,711,male,177.72,76.9,JSSFP,9,13,0,cutlass,1,19,Cars,8,Mediterranean Sea
+711,712,female,164.93,64.9,JSSFP,16,28,1,cutlass,1,0,Cars,14,Philippine Sea
+712,713,male,164.98,63.3,CCCC,2,26,1,scimitar,0,13,Brave,11,Mediterranean Sea
+713,714,male,174.99,76.0,CCCC,9,3,4,cutlass,1,23,Inside Out,11,Bering Sea
+714,715,male,176.9,74.3,CCCC,11,1,0,cutlass,1,15,Toy Story 3,9,Chilean Sea
+715,716,other,171.33,69.3,CCCC,16,1,1,cutlass,1,34,Brave,8,Chilean Sea
+716,717,female,172.95,78.4,JSSFP,5,31,0,banana,1,0,Cars 2,12,Ryukyu Sea
+717,718,female,155.31,61.9,JSSFP,5,139,2,banana,1,0,Up,9,Labrador Sea
+718,719,female,143.47,49.6,CCCC,8,5,2,cutlass,1,2,Inside Out,13,Chilean Sea
+719,720,male,170.63,78.7,CCCC,6,19,0,cutlass,0,15,Cars 2,9,Chilean Sea
+720,721,male,165.89,62.0,CCCC,8,26,1,cutlass,1,18,"Monsters, Inc.",11,Andaman Sea
+721,722,female,188.11,80.4,CCCC,10,8,2,cutlass,1,0,Inside Out,7,Southern Ocean
+722,723,male,168.15,74.4,CCCC,13,20,2,cutlass,1,25,Inside Out,8,Coral Sea
+723,724,female,161.87,65.0,JSSFP,10,30,1,cutlass,1,0,Inside Out,8,Norwegian Sea
+724,725,male,184.24,82.4,CCCC,8,2,0,cutlass,1,10,Inside Out,21,Caspian Sea
+725,726,male,177.35,73.9,CCCC,10,58,2,sabre,1,8,Inside Out,14,Adriatic Sea
+726,727,male,149.67,50.8,CCCC,13,88,2,cutlass,1,26,Up,9,Barents Sea
+726,727,male,149.67,50.8,CCCC,13,88,2,cutlass,1,26,Up,9,Bering Sea
+727,728,female,153.69,51.6,CCCC,11,2,2,cutlass,1,0,Inside Out,12,Coral Sea
+728,729,other,178.26,83.1,CCCC,10,9,0,cutlass,0,13,"Monsters, Inc.",10,Gulf of Mexico
+729,730,female,148.61,54.3,CCCC,13,23,1,cutlass,1,1,Inside Out,11,Sea of Japan
+730,731,female,153.31,54.4,JSSFP,16,17,3,cutlass,1,0,Up,9,Mediterranean Sea
+731,732,male,169.84,69.9,CCCC,3,2,1,banana,1,11,Inside Out,14,Greenland Sea
+732,733,male,189.06,87.6,CCCC,10,14,1,cutlass,1,16,The Incredibles,7,Gulf of St Lawrence
+733,734,male,185.51,89.2,CCCC,7,19,4,cutlass,1,21,Toy Story,14,Tyrrhenian Sea
+734,735,female,179.7,76.7,CCCC,7,31,2,cutlass,1,0,WALL-E,13,Labrador Sea
+735,736,female,161.2,63.3,JSSFP,4,30,3,cutlass,1,0,The Incredibles,10,Philippine Sea
+736,737,female,168.21,66.0,JSSFP,7,12,2,cutlass,0,0,Monsters University,11,Labrador Sea
+737,738,male,153.65,51.0,CCCC,5,3,4,cutlass,0,20,Finding Nemo,10,Celebes Sea
+738,739,male,182.71,89.1,CCCC,13,25,2,cutlass,1,20,Inside Out,17,Ligurian Sea
+739,740,female,175.89,72.4,CCCC,1,1,2,sabre,0,0,Finding Nemo,10,Sulu Sea
+740,741,female,172.2,73.6,CCCC,11,7,3,cutlass,1,1,Inside Out,5,Southern Ocean
+741,742,male,157.72,61.6,JSSFP,8,3,1,scimitar,0,18,Finding Nemo,16,Java Sea
+742,743,male,163.46,59.5,JSSFP,12,41,1,cutlass,1,18,"Monsters, Inc.",11,Tyrrhenian Sea
+743,744,female,166.6,69.3,JSSFP,11,3,2,cutlass,0,1,Finding Nemo,5,Aegean Sea
+744,745,female,154.81,59.0,CCCC,14,3,1,cutlass,1,0,Inside Out,11,Gulf of Mexico
+745,746,female,192.84,86.3,JSSFP,12,19,1,cutlass,1,1,Monsters University,8,Gulf of Alaska
+746,747,male,188.65,87.3,CCCC,8,14,3,cutlass,0,5,Finding Nemo,12,Sulu Sea
+747,748,female,160.9,61.3,CCCC,6,90,5,cutlass,1,0,Inside Out,7,Chilean Sea
+748,749,male,180.78,75.4,CCCC,9,4,11,sabre,1,18,Inside Out,8,South China Sea
+749,750,female,155.42,62.2,JSSFP,10,13,11,cutlass,1,0,Inside Out,7,Adriatic Sea
+750,751,female,157.6,59.5,JSSFP,6,11,5,cutlass,0,0,Finding Nemo,9,Chilean Sea
+751,752,female,151.81,54.9,JSSFP,5,59,0,cutlass,1,0,The Incredibles,7,Adriatic Sea
+752,753,other,171.45,67.8,CCCC,11,3,1,cutlass,1,9,Inside Out,11,Norwegian Sea
+753,754,other,181.8,82.1,CCCC,9,30,8,cutlass,0,9,"Monsters, Inc.",13,Philippine Sea
+754,755,female,154.62,57.3,CCCC,13,42,2,cutlass,0,0,Up,6,Java Sea
+755,756,female,152.83,60.3,JSSFP,13,22,5,cutlass,0,0,Finding Nemo,12,Caribbean Sea
+756,757,male,172.5,66.0,CCCC,5,28,1,cutlass,1,25,"Monsters, Inc.",14,Southern Ocean
+757,758,male,177.6,78.9,CCCC,11,4,1,cutlass,1,24,Inside Out,11,Sea of Japan
+758,759,male,171.86,74.3,CCCC,4,33,0,banana,1,11,Inside Out,15,Tyrrhenian Sea
+759,760,male,180.31,79.0,CCCC,17,106,2,cutlass,1,26,Inside Out,10,Sea of Japan
+760,761,female,146.31,49.4,CCCC,11,5,6,cutlass,1,0,Inside Out,13,Southern Ocean
+761,762,male,143.93,47.4,CCCC,11,26,2,cutlass,1,15,Inside Out,11,Adriatic Sea
+762,763,female,177.49,75.0,JSSFP,10,24,12,cutlass,1,0,A Bug's Life,11,Barents Sea
+763,764,male,165.65,64.2,CCCC,5,7,3,cutlass,1,11,Inside Out,6,Tasman Sea
+764,765,male,160.14,61.4,JSSFP,11,5,2,cutlass,1,18,Cars,9,Caspian Sea
+765,766,male,171.2,63.3,JSSFP,6,47,3,cutlass,1,15,Monsters University,9,Bering Sea
+766,767,male,181.82,77.8,CCCC,5,20,2,cutlass,0,8,Finding Nemo,9,Java Sea
+767,768,male,172.04,75.6,CCCC,7,20,0,cutlass,1,18,Inside Out,4,Aegean Sea
+768,769,female,173.96,71.7,CCCC,10,15,2,cutlass,0,1,Finding Nemo,15,South China Sea
+769,770,female,168.19,61.7,JSSFP,5,7,6,scimitar,1,0,Monsters University,5,Ligurian Sea
+770,771,female,158.58,51.8,CCCC,9,18,4,cutlass,0,0,Cars,6,Andaman Sea
+771,772,female,160.93,61.9,CCCC,12,6,1,cutlass,0,1,Finding Nemo,15,Southern Ocean
+772,773,female,178.72,69.0,CCCC,6,14,1,cutlass,1,1,Inside Out,14,Norwegian Sea
+773,774,female,169.37,62.0,JSSFP,6,20,7,sabre,1,0,Up,11,Bering Sea
+774,775,male,179.04,78.2,CCCC,7,15,1,cutlass,0,16,Finding Nemo,10,Norwegian Sea
+775,776,male,192.28,87.5,CCCC,7,4,0,cutlass,0,16,Finding Nemo,7,Aegean Sea
+776,777,male,166.85,74.5,CCCC,9,14,1,cutlass,0,18,Up,10,Ligurian Sea
+777,778,male,171.51,74.2,CCCC,10,118,8,cutlass,1,31,WALL-E,14,Ryukyu Sea
+778,779,male,175.19,68.9,CCCC,7,17,2,cutlass,1,22,Toy Story 2,9,Andaman Sea
+779,780,female,147.01,47.9,JSSFP,5,4,1,scimitar,1,0,WALL-E,10,Greenland Sea
+780,781,female,157.17,63.7,CCCC,6,2,4,banana,1,0,Up,16,Norwegian Sea
+781,782,male,167.27,62.6,CCCC,8,11,1,cutlass,1,17,Up,13,Mediterranean Sea
+782,783,other,166.24,62.2,CCCC,10,5,3,banana,0,17,WALL-E,8,Barents Sea
+783,784,male,177.11,79.8,CCCC,9,3,0,cutlass,1,15,Inside Out,13,Mediterranean Sea
+784,785,male,158.96,58.9,CCCC,13,31,0,cutlass,1,23,Inside Out,8,Arabian Sea
+785,786,male,190.64,84.5,CCCC,9,1,11,cutlass,1,9,WALL-E,6,Aegean Sea
+786,787,female,142.24,47.2,CCCC,14,4,4,sabre,1,1,Inside Out,10,Ryukyu Sea
+787,788,male,185.86,77.5,CCCC,1,9,2,sabre,1,15,Toy Story 3,13,Yellow Sea
+788,789,male,185.37,85.8,CCCC,6,60,0,cutlass,0,15,Up,6,Norwegian Sea
+789,790,female,147.38,44.7,CCCC,12,52,1,cutlass,1,0,WALL-E,12,Sea of Japan
+790,791,male,189.83,84.1,CCCC,8,23,3,cutlass,1,23,Up,13,Ligurian Sea
+791,792,female,165.06,64.2,JSSFP,9,76,2,cutlass,0,1,Finding Nemo,11,Ligurian Sea
+792,793,male,209.06,103.7,CCCC,8,27,9,cutlass,1,16,Monsters University,8,Celebes Sea
+793,794,female,143.86,41.3,JSSFP,8,24,1,cutlass,1,0,Inside Out,7,Chilean Sea
+794,795,other,157.97,56.5,CCCC,8,29,2,cutlass,1,13,Toy Story,12,Sea of Japan
+795,796,female,163.89,64.0,CCCC,14,41,1,cutlass,1,0,Inside Out,12,East China Sea
+796,797,female,160.42,62.5,JSSFP,3,20,2,scimitar,1,0,Inside Out,15,Black Sea
+797,798,male,178.36,73.0,CCCC,11,20,2,cutlass,1,22,Monsters University,12,Gulf of Alaska
+798,799,female,175.28,69.6,CCCC,5,15,0,cutlass,0,0,Finding Nemo,11,Gulf of Mexico
+799,800,female,169.78,71.8,JSSFP,15,33,1,cutlass,0,0,A Bug's Life,14,Gulf of Alaska
+800,801,female,155.72,61.7,JSSFP,5,115,0,cutlass,0,0,WALL-E,12,Sea of Japan
+801,802,female,159.28,59.2,JSSFP,8,13,3,cutlass,1,0,Inside Out,10,Labrador Sea
+802,803,female,155.94,62.1,JSSFP,7,51,6,scimitar,1,0,Inside Out,14,Banda Sea
+803,804,male,179.35,78.3,CCCC,12,1,1,cutlass,1,13,Inside Out,8,Java Sea
+804,805,female,161.85,59.4,CCCC,17,28,0,scimitar,1,1,Cars,9,Sea of Japan
+805,806,other,168.07,71.1,CCCC,7,6,0,cutlass,0,17,Up,11,Java Sea
+806,807,male,187.44,81.9,CCCC,11,6,0,cutlass,1,20,A Bug's Life,10,East China Sea
+807,808,female,170.98,68.5,JSSFP,11,86,3,cutlass,0,0,WALL-E,14,Barents Sea
+808,809,male,177.83,73.7,CCCC,0,60,6,cutlass,1,7,Inside Out,10,Philippine Sea
+809,810,female,179.04,77.6,JSSFP,13,22,3,cutlass,1,1,Inside Out,12,East China Sea
+810,811,male,187.91,86.7,CCCC,3,20,1,cutlass,1,10,Monsters University,6,Yellow Sea
+811,812,male,179.41,82.9,CCCC,11,30,5,cutlass,1,15,Monsters University,2,Barents Sea
+812,813,male,181.28,77.3,CCCC,11,30,1,cutlass,0,25,"Monsters, Inc.",9,Barents Sea
+813,814,female,151.08,52.1,CCCC,4,19,0,sabre,1,0,The Incredibles,11,Philippine Sea
+814,815,female,167.69,67.7,CCCC,12,50,3,cutlass,1,0,Inside Out,11,Labrador Sea
+815,816,male,176.72,70.7,JSSFP,13,76,3,cutlass,1,26,The Incredibles,6,South China Sea
+816,817,male,169.9,69.7,CCCC,10,5,2,cutlass,1,28,WALL-E,11,South China Sea
+817,818,female,146.13,53.3,JSSFP,9,10,4,cutlass,1,1,Brave,10,Mediterranean Sea
+818,819,female,168.58,64.8,CCCC,6,22,5,cutlass,0,0,Inside Out,16,Barents Sea
+819,820,male,186.2,78.8,CCCC,9,11,6,cutlass,1,20,Inside Out,7,Chilean Sea
+820,821,male,167.25,62.9,CCCC,10,21,1,cutlass,1,27,Inside Out,6,Ryukyu Sea
+821,822,male,182.55,74.3,CCCC,14,6,3,cutlass,0,27,Finding Nemo,8,Philippine Sea
+822,823,male,178.58,77.8,JSSFP,9,3,5,cutlass,1,11,Inside Out,8,Black Sea
+823,824,female,159.42,63.8,CCCC,1,9,2,scimitar,0,0,Monsters University,10,Ryukyu Sea
+824,825,female,152.55,60.6,CCCC,11,35,2,cutlass,1,0,"Monsters, Inc.",11,Labrador Sea
+825,826,male,183.13,79.2,CCCC,6,42,6,cutlass,1,21,The Incredibles,12,Sulu Sea
+826,827,male,189.81,91.9,JSSFP,16,8,1,cutlass,1,21,Up,9,Caspian Sea
+827,828,female,150.14,52.4,CCCC,15,12,1,cutlass,0,1,Monsters University,8,Labrador Sea
+828,829,female,179.84,68.9,CCCC,9,57,1,cutlass,1,1,Monsters University,12,Philippine Sea
+829,830,male,184.65,82.1,CCCC,14,50,3,cutlass,1,19,Inside Out,20,Ryukyu Sea
+830,831,female,167.51,72.1,JSSFP,9,1,3,cutlass,0,0,Up,12,Gulf of Mexico
+831,832,male,177.71,70.2,CCCC,11,7,2,cutlass,1,21,Up,10,Labrador Sea
+832,833,other,173.03,67.1,JSSFP,8,2,0,sabre,1,7,Inside Out,9,Andaman Sea
+833,834,female,155.93,57.8,JSSFP,11,8,3,cutlass,0,2,Up,10,East China Sea
+834,835,female,175.99,75.7,JSSFP,11,28,0,cutlass,1,0,Inside Out,9,Baltic Sea
+835,836,male,170.21,66.9,JSSFP,11,40,3,cutlass,1,16,Inside Out,8,Mediterranean Sea
+836,837,male,188.0,89.8,CCCC,11,13,1,cutlass,1,17,"Monsters, Inc.",8,Andaman Sea
+837,838,female,148.49,52.8,CCCC,15,13,0,cutlass,0,0,Finding Nemo,12,East China Sea
+838,839,female,168.1,71.1,JSSFP,11,35,4,cutlass,1,0,Inside Out,11,Aegean Sea
+839,840,male,180.14,78.8,CCCC,14,26,2,cutlass,1,25,WALL-E,13,Aegean Sea
+840,841,male,184.44,80.7,CCCC,7,5,6,cutlass,1,16,Up,7,Baltic Sea
+841,842,female,163.2,56.6,JSSFP,9,8,0,cutlass,0,0,Monsters University,10,Barents Sea
+842,843,male,175.82,77.3,CCCC,3,3,1,sabre,1,16,WALL-E,11,Tyrrhenian Sea
+843,844,female,164.46,61.5,JSSFP,11,51,6,cutlass,1,0,Inside Out,11,Gulf of Alaska
+844,845,other,159.73,68.7,CCCC,2,12,0,banana,1,3,Monsters University,10,Greenland Sea
+845,846,male,177.18,73.7,CCCC,0,5,1,sabre,0,8,Monsters University,8,Ligurian Sea
+846,847,female,159.51,52.5,JSSFP,2,3,1,banana,0,0,Brave,9,Coral Sea
+847,848,female,156.35,55.5,JSSFP,9,48,1,cutlass,0,0,Finding Nemo,9,Baltic Sea
+848,849,male,196.88,98.5,CCCC,1,5,5,sabre,1,12,Inside Out,12,Gulf of St Lawrence
+849,850,female,172.51,69.7,JSSFP,6,19,6,cutlass,1,0,A Bug's Life,7,Java Sea
+850,851,female,164.02,66.1,CCCC,10,6,2,cutlass,0,1,Finding Nemo,16,Chilean Sea
+851,852,male,181.4,76.6,CCCC,13,2,0,cutlass,1,14,Inside Out,11,Adriatic Sea
+852,853,female,165.18,71.8,CCCC,13,15,1,cutlass,1,0,Up,10,Coral Sea
+853,854,female,130.41,37.7,CCCC,14,6,2,cutlass,1,2,Monsters University,14,Greenland Sea
+854,855,male,169.17,64.1,CCCC,5,4,1,banana,1,6,Inside Out,9,South China Sea
+855,856,female,160.58,57.6,JSSFP,6,6,1,cutlass,1,0,Brave,12,Chilean Sea
+856,857,other,166.99,61.0,CCCC,14,15,0,cutlass,0,17,Cars,12,Norwegian Sea
+857,858,male,191.37,84.1,CCCC,14,16,0,cutlass,1,26,Inside Out,11,East China Sea
+858,859,female,152.17,53.2,JSSFP,13,80,7,cutlass,1,0,Up,3,Caribbean Sea
+859,860,male,182.23,69.0,JSSFP,8,4,3,cutlass,0,21,Finding Nemo,7,Yellow Sea
+860,861,female,163.92,62.1,JSSFP,1,65,6,sabre,1,0,Inside Out,8,Bering Sea
+861,862,male,174.42,68.1,CCCC,8,14,1,cutlass,0,13,Monsters University,7,Celebes Sea
+862,863,female,166.17,66.0,JSSFP,10,50,2,cutlass,1,0,Up,12,Barents Sea
+863,864,male,177.65,77.7,CCCC,12,2,0,cutlass,1,19,Inside Out,6,Chilean Sea
+864,865,male,183.98,75.0,CCCC,9,26,4,cutlass,1,22,Inside Out,0,Chilean Sea
+865,866,male,172.6,70.2,CCCC,15,82,1,cutlass,1,22,WALL-E,3,East China Sea
+866,867,female,149.67,47.4,CCCC,10,44,0,cutlass,0,2,Up,12,Andaman Sea
+867,868,male,185.37,87.2,CCCC,10,4,4,cutlass,1,22,Inside Out,12,Tasman Sea
+868,869,female,168.02,69.7,JSSFP,9,10,6,cutlass,1,0,The Incredibles,7,Sea of Japan
+869,870,male,174.08,79.7,JSSFP,10,19,2,cutlass,0,14,Up,9,Caribbean Sea
+870,871,male,168.93,73.2,CCCC,10,6,1,cutlass,1,22,Inside Out,8,Sea of Japan
+871,872,male,168.9,68.9,CCCC,15,3,2,cutlass,0,32,"Monsters, Inc.",10,Gulf of Mexico
+872,873,female,177.21,74.3,CCCC,11,71,1,cutlass,1,0,Up,5,Gulf of Mexico
+873,874,male,191.08,88.2,CCCC,14,6,1,cutlass,1,22,Inside Out,13,Southern Ocean
+874,875,male,180.87,82.5,CCCC,12,23,4,cutlass,0,14,Inside Out,11,Black Sea
+875,876,male,189.03,89.9,CCCC,8,11,5,cutlass,0,23,Monsters University,12,Arabian Sea
+876,877,male,168.35,60.1,CCCC,8,22,0,cutlass,1,18,Monsters University,10,Red Sea
+877,878,female,162.37,55.4,JSSFP,8,0,1,cutlass,1,0,Up,12,Ligurian Sea
+878,879,male,177.98,70.6,CCCC,9,16,6,cutlass,1,19,WALL-E,17,Ryukyu Sea
+879,880,female,168.91,66.1,JSSFP,9,6,4,cutlass,0,1,Finding Nemo,13,Sulu Sea
+880,881,male,182.28,85.5,CCCC,5,19,3,sabre,0,6,Finding Nemo,14,Norwegian Sea
+881,882,female,176.07,71.4,CCCC,13,34,2,cutlass,1,0,Inside Out,8,Arabian Sea
+882,883,female,156.0,55.7,JSSFP,9,10,5,cutlass,1,1,"Monsters, Inc.",13,Sulu Sea
+883,884,female,158.57,58.4,CCCC,11,3,0,sabre,1,0,Up,4,Caribbean Sea
+884,885,male,178.38,70.2,CCCC,12,37,1,cutlass,0,23,Finding Nemo,8,Caribbean Sea
+885,886,female,168.83,71.4,CCCC,8,33,1,cutlass,1,1,Finding Nemo,5,Labrador Sea
+886,887,male,168.8,70.6,CCCC,17,21,2,cutlass,0,30,Finding Nemo,15,Sea of Japan
+887,888,female,156.03,61.9,JSSFP,9,39,1,cutlass,0,0,A Bug's Life,13,Coral Sea
+888,889,male,171.67,68.0,CCCC,12,5,1,scimitar,0,21,Finding Nemo,17,Black Sea
+889,890,male,168.52,66.7,JSSFP,12,102,3,cutlass,0,17,Finding Nemo,8,Tasman Sea
+890,891,female,177.33,79.2,JSSFP,8,11,3,cutlass,1,0,WALL-E,9,Sea of Japan
+891,892,female,162.57,66.5,JSSFP,8,21,4,cutlass,1,0,Up,10,East China Sea
+892,893,other,164.51,59.9,CCCC,7,7,1,cutlass,1,13,Up,15,Red Sea
+893,894,other,164.08,70.8,CCCC,10,83,9,cutlass,1,20,Inside Out,9,Ryukyu Sea
+894,895,male,200.59,102.6,CCCC,12,1,1,cutlass,1,25,Brave,14,Philippine Sea
+895,896,male,181.02,77.9,CCCC,11,2,2,cutlass,1,22,Monsters University,11,Banda Sea
+896,897,male,187.79,84.1,CCCC,12,26,2,cutlass,0,22,The Incredibles,11,Norwegian Sea
+897,898,female,166.83,64.2,JSSFP,8,21,1,cutlass,0,0,WALL-E,9,Southern Ocean
+898,899,female,150.52,46.9,CCCC,13,4,4,cutlass,1,0,Inside Out,15,South China Sea
+899,900,male,167.9,67.9,CCCC,6,4,3,cutlass,0,7,WALL-E,9,Aegean Sea
+900,901,male,183.46,82.8,CCCC,6,3,1,cutlass,1,28,Up,9,Mediterranean Sea
+901,902,female,150.61,48.9,JSSFP,10,74,2,cutlass,1,0,Inside Out,12,Celebes Sea
+902,903,male,171.68,66.4,CCCC,2,3,2,scimitar,0,13,The Incredibles,10,Sulu Sea
+903,904,female,145.48,57.6,JSSFP,13,2,0,cutlass,1,1,The Incredibles,10,Gulf of Alaska
+904,905,male,178.36,73.3,CCCC,14,19,8,cutlass,0,29,Finding Nemo,5,Black Sea
+905,906,other,168.23,73.2,CCCC,10,18,4,cutlass,1,15,Inside Out,5,Labrador Sea
+906,907,female,185.29,78.6,JSSFP,12,14,2,cutlass,0,1,Finding Nemo,13,Red Sea
+907,908,male,172.69,73.4,JSSFP,9,10,5,cutlass,0,22,Toy Story 2,12,Adriatic Sea
+908,909,female,171.83,77.5,CCCC,5,41,3,scimitar,1,0,"Monsters, Inc.",9,Aegean Sea
+909,910,male,187.63,82.7,CCCC,11,8,9,cutlass,1,17,Monsters University,7,Sulu Sea
+910,911,female,170.56,72.1,JSSFP,9,5,1,banana,1,1,Up,13,Coral Sea
+911,912,female,148.03,53.7,JSSFP,12,29,3,cutlass,1,1,Inside Out,16,Tasman Sea
+912,913,male,184.21,85.1,CCCC,9,5,1,cutlass,1,18,Monsters University,5,Chilean Sea
+913,914,female,172.55,68.9,CCCC,7,8,0,cutlass,1,0,"Monsters, Inc.",13,Gulf of St Lawrence
+914,915,female,162.49,60.4,CCCC,9,24,1,cutlass,1,0,Toy Story 2,9,Tasman Sea
+915,916,female,166.75,62.2,CCCC,8,7,1,cutlass,1,0,Inside Out,10,Mediterranean Sea
+916,917,female,155.76,56.1,CCCC,16,15,1,cutlass,1,0,The Incredibles,13,Tasman Sea
+917,918,male,184.57,74.0,CCCC,9,29,8,cutlass,0,20,WALL-E,11,Yellow Sea
+918,919,male,177.11,77.3,CCCC,10,41,4,cutlass,0,22,Finding Nemo,13,Mediterranean Sea
+919,920,female,173.19,68.3,CCCC,6,31,0,cutlass,1,0,A Bug's Life,7,Arabian Sea
+920,921,female,172.45,73.1,CCCC,8,20,1,cutlass,1,1,Up,8,Caspian Sea
+921,922,male,181.83,72.5,CCCC,11,8,0,sabre,0,16,Monsters University,9,Gulf of Mexico
+922,923,male,183.6,83.6,CCCC,5,11,6,sabre,1,22,Inside Out,8,Gulf of Alaska
+923,924,female,170.04,70.9,CCCC,7,30,1,cutlass,0,1,Cars,8,Gulf of Alaska
+924,925,male,186.0,83.1,CCCC,10,21,6,cutlass,0,18,Up,6,Caspian Sea
+925,926,female,174.94,78.5,JSSFP,16,18,3,cutlass,1,0,Up,10,East China Sea
+926,927,male,181.24,73.8,JSSFP,12,2,8,cutlass,1,12,Up,12,Labrador Sea
+927,928,female,148.59,46.3,CCCC,10,12,2,cutlass,1,0,Up,14,Philippine Sea
+928,929,male,182.25,84.9,CCCC,9,18,2,cutlass,1,26,Inside Out,9,Java Sea
+929,930,male,174.29,71.9,CCCC,15,8,1,scimitar,1,22,Cars,11,Labrador Sea
+930,931,male,148.35,54.0,CCCC,0,1,3,sabre,0,21,Finding Nemo,16,Southern Ocean
+931,932,female,171.6,70.7,JSSFP,8,5,1,banana,0,0,Finding Nemo,12,Bering Sea
+932,933,male,177.07,72.8,CCCC,8,13,7,cutlass,1,24,Inside Out,12,Black Sea
+933,934,female,175.45,81.6,JSSFP,12,10,2,cutlass,1,1,Monsters University,7,Adriatic Sea
+934,935,female,168.68,68.3,CCCC,7,4,5,cutlass,0,0,Toy Story 2,14,Sulu Sea
+935,936,male,189.43,80.9,JSSFP,2,52,8,sabre,1,21,Toy Story,13,Caribbean Sea
+936,937,male,186.93,84.7,CCCC,14,14,0,cutlass,1,24,Inside Out,12,Baltic Sea
+937,938,male,176.22,69.9,CCCC,5,7,6,cutlass,1,8,Inside Out,14,Chilean Sea
+938,939,male,161.43,67.5,CCCC,12,22,13,cutlass,1,16,Inside Out,13,Arabian Sea
+939,940,male,185.14,83.1,CCCC,9,24,7,cutlass,1,24,Brave,12,Java Sea
+940,941,male,173.76,75.9,CCCC,11,38,0,cutlass,1,24,Monsters University,2,Arabian Sea
+941,942,female,160.88,58.6,JSSFP,8,7,1,cutlass,1,0,Inside Out,10,Yellow Sea
+942,943,male,168.94,63.2,JSSFP,16,84,1,cutlass,1,26,Inside Out,6,Black Sea
+943,944,male,173.96,74.4,CCCC,11,14,0,cutlass,1,13,Brave,14,Gulf of St Lawrence
+944,945,male,185.99,85.7,JSSFP,11,15,3,cutlass,0,17,Finding Nemo,9,Andaman Sea
+945,946,male,156.8,52.7,CCCC,11,28,1,cutlass,0,18,Toy Story 2,9,Adriatic Sea
+946,947,male,164.54,66.4,CCCC,2,21,1,cutlass,0,9,Toy Story 2,7,Red Sea
+947,948,female,159.39,67.9,CCCC,11,14,2,cutlass,0,0,A Bug's Life,10,Celebes Sea
+948,949,female,158.37,55.9,JSSFP,10,8,5,cutlass,0,0,Up,6,Red Sea
+949,950,female,153.77,54.8,JSSFP,11,61,1,cutlass,0,0,The Incredibles,7,Labrador Sea
+950,951,male,174.31,73.5,CCCC,9,23,0,cutlass,1,16,Inside Out,9,Yellow Sea
+951,952,male,183.57,74.7,CCCC,12,27,2,cutlass,1,24,The Incredibles,9,Ligurian Sea
+952,953,female,161.37,61.6,CCCC,11,14,3,cutlass,1,0,"Monsters, Inc.",8,Bering Sea
+953,954,male,190.91,85.4,JSSFP,14,49,5,cutlass,0,24,Finding Nemo,9,Adriatic Sea
+954,955,male,190.45,89.2,CCCC,13,6,0,cutlass,1,33,Inside Out,8,Mediterranean Sea
+955,956,female,159.25,65.2,CCCC,9,4,4,cutlass,1,0,"Monsters, Inc.",15,Gulf of St Lawrence
+956,957,male,184.08,78.4,JSSFP,13,3,1,cutlass,1,22,"Monsters, Inc.",7,Gulf of Mexico
+957,958,female,177.58,82.4,CCCC,9,26,3,cutlass,0,0,Finding Nemo,5,East China Sea
+958,959,female,155.14,59.0,JSSFP,8,1,10,cutlass,1,0,Inside Out,13,Banda Sea
+959,960,male,170.67,76.3,CCCC,8,14,1,sabre,0,16,The Incredibles,12,Red Sea
+960,961,female,181.33,71.2,CCCC,13,10,2,cutlass,1,0,Inside Out,15,Andaman Sea
+961,962,female,151.54,56.5,JSSFP,9,12,3,cutlass,0,1,WALL-E,7,Banda Sea
+962,963,male,147.74,59.9,CCCC,11,7,3,cutlass,1,16,Brave,6,Philippine Sea
+963,964,male,172.6,69.2,CCCC,12,23,0,cutlass,1,30,A Bug's Life,10,Yellow Sea
+964,965,male,180.18,76.1,CCCC,8,21,0,sabre,0,21,Finding Nemo,10,South China Sea
+965,966,male,177.81,74.9,CCCC,11,9,5,cutlass,0,27,The Incredibles,11,Adriatic Sea
+966,967,female,162.06,54.9,CCCC,6,3,0,cutlass,1,0,Cars 2,12,Black Sea
+967,968,male,176.28,73.6,CCCC,6,6,2,banana,0,26,Finding Nemo,9,Gulf of Alaska
+968,969,male,169.69,67.2,CCCC,11,1,0,cutlass,1,16,Toy Story,14,Sea of Japan
+969,970,male,186.2,83.8,CCCC,12,17,3,cutlass,0,25,Finding Nemo,12,Sea of Japan
+970,971,male,179.0,68.6,CCCC,7,3,12,cutlass,0,17,Finding Nemo,12,Java Sea
+971,972,male,177.47,75.5,JSSFP,9,7,0,cutlass,1,27,Up,8,Gulf of St Lawrence
+972,973,male,183.56,82.5,CCCC,10,4,1,cutlass,1,19,Inside Out,10,Adriatic Sea
+973,974,male,188.38,82.8,CCCC,14,65,7,cutlass,1,21,The Incredibles,10,Celebes Sea
+974,975,female,152.16,58.7,JSSFP,8,4,16,cutlass,1,1,WALL-E,9,Mediterranean Sea
+975,976,male,176.95,70.9,CCCC,7,26,1,cutlass,1,20,Inside Out,11,Yellow Sea
+976,977,female,160.87,65.1,CCCC,14,11,0,cutlass,1,1,Monsters University,12,Tasman Sea
+977,978,male,176.33,70.2,CCCC,12,1,3,cutlass,0,24,The Incredibles,13,Arabian Sea
+978,979,female,152.44,54.7,CCCC,11,41,0,cutlass,0,0,Finding Nemo,13,Sulu Sea
+979,980,female,161.61,70.4,JSSFP,12,20,4,cutlass,1,2,Toy Story 2,9,Sea of Japan
+980,981,female,161.1,56.8,JSSFP,11,64,1,cutlass,1,1,Inside Out,10,Adriatic Sea
+981,982,female,170.72,67.7,JSSFP,9,51,6,cutlass,1,1,Inside Out,14,Caspian Sea
+982,983,male,165.42,67.4,CCCC,10,24,3,scimitar,1,10,Inside Out,5,Tasman Sea
+983,984,female,186.3,78.3,CCCC,12,26,5,cutlass,1,0,Up,15,Arabian Sea
+984,985,female,149.63,48.7,CCCC,11,0,0,cutlass,1,2,WALL-E,6,Baltic Sea
+985,986,male,179.29,79.6,CCCC,13,24,6,cutlass,0,30,Finding Nemo,9,Banda Sea
+986,987,female,161.65,62.1,JSSFP,15,30,1,cutlass,0,0,WALL-E,14,Adriatic Sea
+987,988,female,160.55,64.5,JSSFP,9,19,2,cutlass,0,0,Finding Nemo,7,Southern Ocean
+988,989,male,175.95,81.6,CCCC,17,26,1,cutlass,1,25,Inside Out,10,South China Sea
+989,990,male,164.79,63.7,CCCC,10,37,10,cutlass,1,23,Inside Out,7,Adriatic Sea
+990,991,male,186.27,86.9,CCCC,13,6,3,cutlass,0,17,Finding Nemo,14,Caspian Sea
+991,992,male,173.1,73.7,CCCC,13,6,0,cutlass,0,23,Finding Nemo,14,Adriatic Sea
+992,993,female,161.17,61.4,JSSFP,7,15,2,scimitar,1,1,Up,9,Norwegian Sea
+993,994,female,153.95,65.2,JSSFP,11,12,2,cutlass,1,0,Inside Out,12,Gulf of Mexico
+994,995,male,172.45,75.0,JSSFP,9,18,16,cutlass,1,18,Toy Story 3,10,Barents Sea
+995,996,male,178.83,70.8,CCCC,14,11,2,cutlass,0,20,Up,13,Baltic Sea
+996,997,female,157.2,53.6,JSSFP,13,48,2,cutlass,0,0,Finding Nemo,8,South China Sea
+997,998,male,175.74,72.4,JSSFP,9,95,14,cutlass,1,18,The Incredibles,11,Celebes Sea
+998,999,male,175.24,70.2,JSSFP,9,6,0,cutlass,1,24,Inside Out,10,Labrador Sea
+999,1000,male,189.45,84.0,JSSFP,10,36,1,cutlass,0,19,Up,14,
