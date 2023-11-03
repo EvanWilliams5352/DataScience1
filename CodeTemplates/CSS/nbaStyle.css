@@ -1,0 +1,19 @@
+﻿
+body {
+   background-color: black;
+}
+h1 {
+    color: white;
+    margin-top: 50px;
+    font-family: 'Fjalla One', sans-serif
+}
+p {
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+}
+main {
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+@media 
