@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>D3.js Animated Scatterplot with Axes</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            height: 800px;
+            background-color: white;
+        }
+
+        path {
+            fill: none;
+            stroke: rgba(75, 192, 192, 1);
+            stroke-width: 2px;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="chart-container main" id="section1">
+    </div>
+
+    <div class="chart-container main" id="section2">
+        <script>
+            // Sample data for scatterplot
+            var data = {
+                labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+                datasets: [{
+                    label: 'Sample Data',
+                    data: [10, 20, 15, 25, 30, 22, 18, 12, 28, 35],
+                }]
+            };
+
+            // Extract x and y values from the dataset
+            var scatterData = data.labels.map((label, index) => ({ x: index * 30, y: data.datasets[0].data[index] }));
+
+            // Create an SVG container
+            var svg = d3.select("body").append("svg")
+                .attr("width", 800)
+                .attr("height", 400);
+
+            // Append a group for the axes
+            var axesGroup = svg.append("g").attr("transform", "translate(50, 50)");
+
+            // Append a group for the circles
+            var circlesGroup = svg.append("g").attr("transform", "translate(50, 50)");
+
+            // Append a group for the line
+            var linesGroup = svg.append("g").attr("transform", "translate(50, 50)");
+
+            // Create x and y scales
+            var xScale = d3.scaleLinear().domain([1, 300]).range([0, 700]);
+            var yScale = d3.scaleLinear().domain([0, d3.max(data.datasets[0].data)]).range([300, 0]);
+
+            // Create x and y axes
+            var xAxis = d3.axisBottom(xScale);
+            var yAxis = d3.axisLeft(yScale);
+
+            // Append x and y axes to the group
+            axesGroup.append("g").attr("class", "axis").attr("transform", "translate(0,300)").call(xAxis);
+            axesGroup.append("g").attr("class", "axis").call(yAxis);
+
+            // Function to draw circles
+            function drawCircles() {
+                circlesGroup.selectAll("circle")
+                    .data(scatterData)
+                    .enter().append("circle")
+                    .attr("cx", d => xScale(d.x))
+                    .attr("cy", d => yScale(d.y))
+                    .attr("r", 5)
+                    .style("fill", 'rgba(75, 192, 192, 1)');
+            }
+
+            // Function to draw the line with animation
+            function drawLine() {
+                var line = d3.line()
+                    .x(d => xScale(d.x))
+                    .y(d => yScale(d.y));
+
+                linesGroup.append("path")
+                    .data([scatterData])
+                    .attr("d", line)
+                    .attr("fill", "none")
+                    .attr("stroke", 'rgba(75, 192, 192, 1)')
+                    .attr("stroke-width", 2)
+                    .style("stroke-dasharray", function () {
+                        var length = this.getTotalLength();
+                        return `${length} ${length}`;
+                    })
+                    .style("stroke-dashoffset", function () {
+                        return this.getTotalLength();
+                    })
+                    .transition()
+                    .duration(1000)
+                    .delay(300)
+                    .style("stroke-dashoffset", 0);
+            }
+
+            // Draw circles
+            drawCircles();
+
+            // Function to handle the scroll event
+            function handleScroll() {
+                var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+                var triggerPosition = document.getElementById("section2").getBoundingClientRect().top + scrollPosition;
+
+                if (scrollPosition > triggerPosition) {
+                    drawLine();
+                    window.removeEventListener("scroll", handleScroll);
+                }
+            }
+
+            // Add a scroll event listener
+            window.addEventListener("scroll", handleScroll);
+
+        </script>
+    </div>
+
+</body>
+
+</html>
