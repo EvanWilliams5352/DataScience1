@@ -1,58 +1,402 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Ski Resorts Price and Size</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Skiing.css">
+    <title>Skiing Destinations</title>
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 2s ease-in-out; /* Set the transition duration to 2 seconds */
+        }
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        /* Style for the tooltip */
+        .tooltip {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>If you are going on vacation, which hotels give best price for size? Total length of pistes (in km): Is there a correlation between the size of the ski area and the price?</h1>
-    <h1>My Data</h1>
-    <!-- Your code here -->
-    <h2>
-        Measure: Mean of the price and piste Value: price(£):1095.027027($1192.57)  totalPiste(km): 220.270270
-    </h2>
 
+    <!-- Header Section -->
+    <header>
+        <h1>Europe's Best Ski Resorts 2023 Ranked by Price</h1>
+    </header>
 
+    <!-- Main Content Section -->
+    <main>
         <h2>
-            What does this tell me?: This is the average mean between the price and piste. This shows the average price and average Piste
+            Are you planning a ski trip in Europe? But I don't know where to go or how much it will be. I have been skiing for basically my whole life and understand the struggle to go skiing while worrying about price and lodge because skiing is a very popular hobby so finding a place to stay and a way to keep the price down is quite a challenge. Don’t worry below will be a list of the most expensive and the least expensive resorts, complete with mountain stats and accommodation costs. Also I’ll be answering the question, does cost and the size of the mountain correlate to each other, to help you get a better understanding of where you might want to stay. Ready to hit the slopes?
         </h2>
+       
+        <!-- Create a container for the scatter plot and tooltip -->
+        <div id="scatter-plot-container"></div>
+        <div class="tooltip" id="tooltip"></div>
+
+        <script>
+            // Provided data for x and y axes
+            const prices = [550, 561, 566, 574, 596, 597, 601, 603, 606, 632, 635, 642, 658, 662, 662, 677, 677, 681, 689, 692, 694, 695, 695, 698, 700, 701, 701, 702, 704, 712, 718, 721, 724, 729, 731, 731, 734, 734, 735, 737, 740, 744, 746, 748, 748, 751, 752, 754, 754, 755, 757, 758, 758, 758, 758, 761, 761, 765, 768, 768, 771, 771, 772, 772, 773, 774, 774, 776, 778, 778, 783, 783, 785, 785, 789, 791, 791, 795, 795, 801, 801, 804, 804, 806, 812, 814, 815, 818, 819, 819, 819, 820, 821, 826, 827, 829, 832, 832, 834, 834, 838, 839, 839, 840, 843, 847, 849, 852, 852, 854, 855, 855, 855, 856, 856, 858, 858, 861, 861, 861, 867, 869, 873, 874, 874, 878, 879, 880, 881, 883, 886, 888, 890, 891, 891, 893, 893, 897, 897, 897, 899, 899, 901, 902, 902, 904, 905, 905, 906, 907, 917, 918, 919, 919, 921, 922, 924, 926, 928, 931, 940, 941, 941, 945, 949, 952, 955, 955, 960, 961, 964, 967, 969, 969, 971, 974, 978, 980, 981, 985, 986, 987, 989, 990, 991, 993, 997, 999, 1000, 1000, 1002, 1007, 1007, 1007, 1007, 1009, 1009, 1010, 1010, 1012, 1012, 1016, 1019, 1021, 1022, 1023, 1027, 1029, 1029, 1032, 1034, 1040, 1042, 1045, 1045, 1048, 1048, 1051, 1056, 1057, 1062, 1065, 1067, 1067, 1071, 1073, 1076, 1078, 1079, 1083, 1087, 1088, 1101, 1101, 1101, 1107, 1107, 1107, 1116, 1116, 1117, 1119, 1120, 1123, 1123, 1127, 1133, 1136, 1140, 1143, 1146, 1150, 1154, 1157, 1158, 1158, 1159, 1162, 1169, 1169, 1172, 1173, 1173, 1178, 1179, 1180, 1182, 1182, 1184, 1184, 1189, 1189, 1191, 1193, 1194, 1195, 1195, 1198, 1198, 1199, 1205, 1206, 1213, 1215, 1224, 1227, 1227, 1228, 1230, 1231, 1235, 1235, 1239, 1243, 1243, 1243, 1245, 1245, 1249, 1260, 1264, 1265, 1266, 1267, 1270, 1271, 1273, 1274, 1274, 1276, 1280, 1281, 1284, 1292, 1293, 1299, 1311, 1319, 1319, 1321, 1323, 1324, 1326, 1330, 1332, 1337, 1339, 1341, 1349, 1351, 1352, 1363, 1373, 1374, 1386, 1386, 1387, 1387, 1388, 1394, 1396, 1398, 1401, 1404, 1411, 1411, 1419, 1419, 1420, 1424, 1426, 1427, 1429, 1432, 1460, 1460, 1467, 1471, 1486, 1493, 1499, 1504, 1507, 1515, 1518, 1542, 1546, 1547, 1560, 1562, 1569, 1576, 1577, 1586, 1597, 1611, 1636, 1637, 1649, 1673, 1677, 1691, 1712, 1715, 1749, 1755, 1775, 1798, 1822, 1824, 1825, 1830, 1832, 1866, 1934, 1942, 1989, 1995, 2019, 2025, 2092, 2128, 2216, 2258, 2420, 2484, 2517];
+            const totalPistes = [140, 140, 70, 58, 70, 63, 600, 58, 63, 63, 63, 120, 63, 100, 145, 70, 70, 175, 193, 400, 100, 100, 400, 70, 150, 193, 25, 193, 208, 140, 48, 762, 193, 120, 0, 100, 100, 250, 132, 80, 600, 250, 70, 100, 150, 400, 210, 210, 132, 70, 250, 18, 132, 44, 120, 48, 100, 70, 150, 193, 136, 24, 210, 18, 762, 400, 400, 70, 25, 400, 185, 50, 250, 0, 17, 400, 400, 48, 100, 120, 120, 600, 193, 48, 350, 193, 600, 70, 60, 600, 400, 100, 120, 100, 48, 60, 120, 140, 48, 175, 400, 100, 193, 350, 175, 250, 20, 145, 400, 100, 600, 136, 120, 12, 145, 193, 70, 136, 193, 100, 103, 58, 150, 208, 175, 120, 400, 136, 44, 63, 650, 650, 250, 400, 150, 250, 17, 600, 50, 249, 20, 20, 350, 300, 210, 0, 400, 175, 250, 100, 60, 425, 175, 280, 146, 220, 210, 220, 220, 150, 40, 100, 210, 350, 44, 200, 350, 17, 93, 150, 600, 175, 230, 136, 300, 193, 210, 17, 249, 305, 136, 600, 120, 300, 63, 230, 250, 20, 208, 60, 250, 140, 250, 175, 140, 103, 132, 50, 208, 132, 208, 225, 300, 150, 93, 175, 208, 600, 220, 150, 270, 284, 600, 425, 175, 60, 425, 210, 175, 93, 249, 208, 400, 150, 210, 120, 265, 230, 44, 250, 249, 136, 250, 175, 600, 200, 650, 50, 136, 132, 208, 100, 136, 210, 100, 93, 270, 136, 1220, 270, 225, 200, 175, 300, 250, 175, 44, 300, 300, 146, 305, 220, 600, 200, 40, 110, 200, 300, 185, 425, 110, 50, 270, 175, 25, 93, 600, 110, 249, 249, 600, 600, 250, 50, 600, 270, 250, 110, 300, 305, 762, 110, 136, 400, 600, 300, 175, 146, 110, 103, 176, 200, 136, 300, 110, 305, 650, 136, 40, 305, 350, 350, 110, 110, 230, 220, 230, 400, 230, 305, 208, 600, 305, 175, 200, 249, 230, 185, 176, 425, 300, 265, 350, 103, 40, 305, 348, 136, 146, 200, 225, 175, 185, 305, 300, 300, 160, 600, 305, 305, 276, 305, 208, 110, 110, 110, 305, 150, 600, 300, 220, 600, 600, 305, 270, 270, 270, 110, 185, 175, 276, 95, 146, 300, 132, 270, 600, 110, 110, 110, 175, 136, 185, 270, 110, 0, 150, 146, 348, 210, 305, 249, 300, 305, 600, 230, 20, 146, 44, 600, 300, 110, 600, 230, 230, 230, 200];
+            const names = ["italy-bardonecchia", "italy-bardonecchia", "bulgaria-bansko", "bulgaria-borovets", "bulgaria-bansko", "andora-arinsal", "austria-mayrhofen", "bulgaria-borovets", "andorra-arinsal", "andorra-arinsal", "andorra-arinsal", "italy-canazei", "andorra-arinsal", "italy-courmayeur", "austria-alpbach", "bulgaria-bansko", "bulgaria-bansko", "italy-selva-val-gardena", "andorra-pas-de-la-casa", "italy-sauze-d-oulx", "italy-passo-tonale", "italy-courmayeur", "italy-sauze-d-oulx", "bulgaria-bansko", "italy-la-thuile", "andorra-pas-de-la-casa", "austria-rauris", "andorra-pas-de-la-casa", "austria-bad-hofgastein", "italy-bardonecchia", "austria-niederau-oberau", "france-chamonix", "andorra-pas-de-la-casa", "italy-val-di-fassa", "finland-yllas", "italy-passo-tonale", "italy-passo-tonale", "austria-soll", "austria-kaprun", "finland-pyha", "austria-mayrhofen", "austria-soll", "italy-pila", "italy-passo-tonale", "italy-madonna-di-campiglio", "italy-sauze-d-oulx", "andorra-soldeu", "andorra-soldeu", "austria-kaprun", "bulgaria-bansko", "france-serre-chevalier", "bulgaria-pamporovo", "austria-kaprun", "finland-levi", "italy-canazei", "austria-niederau-oberau", "italy-passo-tonale", "italy-pila", "italy-madonna-di-campiglio", "andorra-pas-de-la-casa", "austria-zell-am-see", "finland-ruka", "andorra-soldeu", "bulgaria-pamporovo", "france-chamonix", "italy-sauze-d-oulx", "italy-sauze-d-oulx", "italy-pila", "austria-rauris", "italy-sestriere", "austria-kitzbuhel", "italy-folgarida", "france-serre-chevalier", "finland-yllas", "italy-campitello", "italy-sauze-d-oulx", "italy-sauze-d-oulx", "austria-niederau-oberau", "italy-courmayeur", "italy-val-di-fassa", "italy-val-di-fassa", "fance-brides-les-bains", "andorra-pas-de-la-casa", "austria-niederau-oberau", "italy-cervinia", "andorra-pas-de-la-casa", "austria-mayrhofen", "italy-pila", "austria-st-johann-in-tirol", "france-brides-les-bains", "italy-sauze-d-oulx", "italy-courmayeur", "italy-canazei", "italy-passo-tonale", "austria-niederau-oberau", "austria-st-johann-in-tirol", "italy-canazei", "italy-bardonecchia", "austria-niederau-oberau", "italy-selva-val-gardena", "italy-sauze-d-oulx", "italy-passo-tonale", "andorra-pas-de-la-casa", "italy-cervinia", "austria-schladming", "austria-bad-gastein", "finland-saariselka", "austria-alpbach", "italy-sestriere", "italy-passo-tonale", "austria-mayrhofen", "austria-zell-am-see", "italy-canazei", "austria-igls", "austria-alpbach", "andorra-pas-de-la-casa", "italy-pila", "austria-zell-am-see", "andorra-pas-de-la-casa", "italy-passo-tonale", "italy-kronplatz", "bulgaria-borovets", "italy-la-thuile", "austria-bad-hofgastein", "italy-selva-val-gardena", "italy-canazei", "italy-sauze-d-oulx", "austria-zell-am-see", "finland-levi", "andorra-arinsal", "france-morzine", "france-chatel", "austria-soll", "italy-sestriere", "italy-gressoney", "austria-soll", "italy-campitello", "austria-mayrhofen", "italy-folgarida", "france-alpe-d-huez", "finland-saariselka", "finland-saariselka", "italy-cervinia", "france-val-d-isere", "andorra-soldeu", "finland-yllas", "italy-sestriere", "italy-selva-val-gardena", "austria-soll", "italy-passo-tonale", "austria-st-johann-in-tirol", "france-bourg-st-maurice", "italy-selva-val-gardena", "austria-ellmau", "austria-solden", "france-les-deux-alpes", "andorra-soldeu", "france-les-deux-alpes", "france-les-deux-alpes", "italy-gressoney", "austria-galtur", "italy-passo-tonale", "andorra-soldeu", "italy-cervinia", "finland-levi", "france-les-arcs-2000", "italy-cervinia", "italy-campitello", "italy-san-candido", "italy-madonna-di-campiglio", "austria-mayrhofen", "italy-selva-val-gardena", "austria-ischgl", "austria-zell-am-see", "france-val-d-isere", "andorra-pas-de-la-casa", "andorra-soldeu", "italy-campitello", "france-alpe-d-huez", "austria-st-anton", "austria-zell-am-see", "austria-mayrhofen", "italy-val-di-fassa", "france-tignes", "andorra-arinsal", "austria-ischgl", "austria-soll", "finland-saariselka", "austria-bad-hofgastein", "austria-st-johann-in-tirol", "austria-soll", "italy-cortina", "france-serre-chevalier", "italy-selva-al-gardena", "italy-cortina", "italy-kronplatz", "austria-kaprun", "austria-seefeld", "austria-bad-hofgastein", "austria-kaprun", "austria-bad-hofgastein", "france-aime-la-plagne", "france-tignes-les-brevieres", "italy-madonna-di-campiglio", "italy-san-candido", "austria-schladming", "austria-bad-hofgastein", "austria-mayrhofen", "france-les-deux-alpes", "italy-madonna-di-campiglio", "austria-saalbach", "austria-westendorf", "austria-mayrhofen", "france-belle-plagne", "austria-schladming", "austria-st-johann-in-tirol", "france-belle-plagne", "andorra-soldeu", "italy-selva-val-gardena", "italy-san-candido", "france-alpe-d-huez", "austria-bad-hofgastein", "italy-sestriere", "italy-madonna-di-campiglio", "andorra-soldeu", "italy-val-di-fassa", "france-flaine", "austria-ischgl", "finland-levi", "austria-bad-gastein", "france-alpe-d-huez", "austria-zell-am-see", "austria-bad-gastein", "austria-schladming", "france-val-thorens", "france-les-arcs-1800", "france-avoriaz", "austria-seefeld", "austria-zell-am-see", "austria-kaprun", "austria-bad-hofgastein", "italy-courmayeur", "austria-zell-am-see", "andorra-soldeu", "italy-courmayeur", "italy-san-candido", "austria-saalbach", "austria-zell-am-see", "italy-arabba", "austria-saalbach", "france-plagne-soleil", "austria-hinterglemm", "italy-selva-val-gardena", "france-tignes", "austria-soll", "italy-santa-cristina", "finland-levi", "france-val-d-isere", "france-val-d-isere", "austria-solden", "austria-st-anton", "france-les-deux-alpes", "france-val-thorens", "austria-hinterglemm", "austria-galtur", "austria-nassfeld", "france-les-arcs-1800", "france-tignes-le-lac", "austria-kitzbuhel", "france-belle-plagne", "austria-obergurgl", "france-alpe-d-huez", "france-alpe-d-huez", "austria-mayrhofen", "france-val-thorens", "austria-soll", "austria-seefeld", "france-val-thorens", "austria-saalbach", "france-serre-chevalier", "austria-obergurgl", "france-val-d-isere", "austria-st-anton", "france-chamonix", "austria-nassfeld", "austria-zell-am-see", "france-montgenevre", "austria-mayrhofen", "france-tignes-val-claret", "italy-santa-cristina", "austria-solden", "austria-obergurgl", "italy-kronplatz", "italy-ortisei-st-ulrich", "austria-hinterglemm", "austria-zell-am-see", "france-tignes-les-brevieres", "austria-obergurgl", "austria-st-anton", "france-morzine", "austria-zell-am-see", "austria-galtur", "austria-lech", "italy-cervinia", "italy-cervinia", "austria-obergurgl", "austria-obergurgl", "austria-ischgl", "france-les-deux-alpes", "austria-ischgl", "france-montgenevre", "austria-ischgl", "austria-st-anton", "austria-bad-hofgastein", "austria-mayrhofen", "austria-lech", "italy-selva-val-gardena", "france-les-arcs-1600", "france-alpe-d-huez", "austria-ischgl", "austria-kitzbuhel", "italy-ortisei-st-ulrich", "france-belle-plagne", "france-val-d-isere", "france-flaine", "italy-cervinia", "italy-kronplatz", "austria-galtur", "austria-st-anton", "austria-st-christoph", "austria-zell-am-see", "austria-hochsolden", "austria-hinterglemm", "france-plagne-centre", "italy-santa-cristina", "austria-kitzbuhel", "austria-st-anton", "france-val-d-isere", "france-val-d-isere", "france-la-rosiere", "france-val-thorens", "austria-st-anton", "austria-st-anton", "austria-zurs-am-arlberg", "austria-st-anton", "austria-bad-hofgastein", "austria-nassfeld", "austria-obergurgl", "austria-obergurgl", "austria-st-anton", "france-courchevel-1850", "france-val-thorens", "france-tignes-val-claret", "france-les-deux-alpes", "austria-mayrhofen", "france-meribel", "austria-lech", "austria-saalbach", "austria-saalbach", "austria-saalbach", "austria-obergurgl", "austria-kitzbuhel", "italy-selva-val-gardena", "austria-zurs-am-arlberg", "austria-obertauern", "austria-solden", "france-tignes-le-lac", "austria-kaprun", "austria-saalbach", "france-les-menuires", "austria-obergurgl", "austria-obergurgl", "austria-obergurgl", "italy-selva-val-gardena", "austria-zell-am-see", "austria-kitzbuhel", "austria-saalbach", "austria-obergurgl", "austria-hochgurgl", "france-courchevel-1650", "austria-solden", "austria-st-christoph", "andorra-soldeu", "austria-lech", "france-alpe-d-huez", "france-val-d-isere", "austria-st-anton", "france-val-thorens", "austria-ischgl", "finland-saariselka", "austria-solden", "finland-levi", "france-meribel", "france-tignes-le-lac", "austria-obergurgl", "france-val-thorens", "austria-ischgl", "austria-ischgl", "austria-ischgl", " austria-hinterglemm"];
+            const totalLifts = [23, 23, 24, 18, 24, 30, 52, 18, 30, 30, 30, 58, 30, 16, 47, 24, 24, 81, 63, 89, 30, 16, 89, 24, 36, 63, 10, 63, 49, 23, 47, 64, 63, 58, 29, 30, 30, 94, 56, 9, 52, 94, 12, 30, 47, 89, 67, 67, 56, 24, 74, 19, 56, 27, 58, 47, 30, 12, 47, 63, 55, 26, 67, 19, 64, 89, 89, 12, 10, 94, 61, 25, 74, 29, 9, 89, 89, 47, 16, 58, 58, 198, 63, 47, 56, 63, 52, 12, 17, 198, 89, 16, 58, 30, 47, 17, 58, 23, 47, 81, 89, 30, 63, 56, 93, 49, 5, 47, 94, 30, 52, 55, 58, 8, 47, 63, 12, 55, 63, 30, 32, 18, 36, 49, 81, 58, 89, 55, 27, 30, 206, 206, 94, 94, 13, 94, 9, 52, 25, 82, 5, 5, 56, 89, 67, 29, 94, 81, 94, 30, 17, 171, 81, 95, 33, 43, 67, 43, 43, 13, 0, 30, 67, 56, 27, 82, 56, 9, 32, 47, 52, 81, 48, 55, 89, 63, 67, 9, 82, 88, 55, 52, 58, 89, 30, 48, 94, 5, 49, 17, 94, 47, 74, 81, 47, 32, 56, 31, 49, 56, 49, 139, 89, 47, 32, 93, 49, 52, 43, 47, 70, 90, 52, 139, 93, 17, 139, 67, 81, 32, 82, 49, 94, 47, 67, 58, 77, 48, 27, 49, 82, 55, 49, 93, 183, 82, 107, 31, 55, 56, 49, 16, 55, 67, 16, 32, 70, 55, 30, 70, 105, 54, 81, 89, 94, 80, 27, 89, 89, 33, 88, 43, 183, 54, 0, 30, 82, 89, 61, 139, 24, 31, 70, 93, 10, 32, 198, 24, 82, 82, 52, 183, 94, 31, 183, 70, 74, 24, 89, 88, 64, 30, 55, 70, 52, 89, 80, 33, 24, 32, 0, 54, 55, 89, 24, 88, 206, 55, 0, 85, 56, 56, 24, 24, 48, 43, 48, 70, 48, 88, 49, 52, 85, 81, 82, 82, 48, 61, 0, 139, 89, 77, 56, 32, 0, 88, 97, 55, 40, 54, 105, 80, 61, 88, 89, 89, 37, 183, 88, 88, 85, 88, 49, 30, 24, 24, 88, 67, 183, 89, 43, 52, 183, 85, 70, 70, 70, 24, 61, 81, 85, 26, 33, 89, 56, 70, 183, 24, 24, 24, 81, 55, 61, 70, 24, 0, 67, 33, 97, 67, 85, 82, 89, 88, 183, 48, 5, 33, 27, 183, 89, 24, 183, 48, 48, 48, 54];
+            const runs = [42, 42, 14, 15, 14, 42, 133, 15, 42, 42, 42, 74, 42, 22, 69, 14, 14, 59, 100, 160, 30, 22, 160, 14, 33, 100, 11, 100, 60, 42, 69, 262, 100, 74, 63, 30, 30, 128, 59, 14, 133, 128, 30, 30, 38, 160, 123, 123, 59, 14, 111, 14, 59, 43, 74, 69, 30, 30, 38, 100, 59, 34, 123, 14, 262, 160, 160, 30, 11, 146, 67, 30, 111, 63, 8, 160, 160, 69, 22, 74, 74, 290, 100, 69, 131, 100, 133, 30, 29, 290, 160, 22, 74, 30, 69, 29, 74, 42, 69, 59, 160, 30, 100, 131, 74, 60, 12, 69, 146, 30, 133, 59, 74, 5, 69, 100, 30, 59, 100, 30, 43, 15, 33, 60, 59, 74, 160, 59, 43, 42, 308, 308, 128, 146, 32, 128, 8, 133, 30, 135, 12, 12, 131, 154, 123, 63, 146, 59, 128, 30, 29, 242, 59, 128, 40, 85, 123, 85, 85, 32, 0, 30, 123, 131, 43, 108, 131, 8, 76, 38, 133, 59, 98, 59, 154, 100, 123, 8, 135, 304, 59, 133, 74, 154, 42, 98, 128, 12, 60, 29, 128, 78, 111, 59, 78, 43, 59, 18, 60, 59, 60, 128, 154, 38, 76, 74, 60, 133, 85, 38, 270, 207, 133, 128, 74, 29, 128, 123, 59, 76, 135, 60, 146, 38, 123, 74, 126, 98, 43, 60, 135, 59, 60, 74, 321, 108, 286, 18, 59, 59, 60, 22, 59, 123, 22, 76, 270, 59, 50, 270, 128, 64, 59, 154, 128, 58, 43, 154, 154, 40, 304, 85, 321, 64, 0, 29, 108, 154, 67, 128, 40, 18, 270, 74, 11, 76, 275, 40, 135, 135, 133, 321, 128, 18, 321, 270, 111, 40, 154, 304, 262, 29, 59, 165, 133, 154, 58, 40, 40, 43, 0, 64, 59, 154, 40, 304, 308, 59, 0, 134, 131, 131, 40, 40, 98, 85, 98, 165, 98, 304, 60, 133, 134, 59, 108, 135, 98, 67, 0, 128, 154, 126, 131, 43, 0, 304, 248, 59, 40, 64, 128, 58, 67, 304, 154, 154, 94, 321, 304, 304, 0, 304, 60, 29, 40, 40, 304, 119, 321, 154, 85, 133, 328, 134, 270, 270, 270, 40, 67, 59, 0, 50, 40, 154, 59, 270, 321, 40, 40, 40, 59, 59, 67, 270, 40, 0, 119, 40, 248, 123, 134, 135, 154, 304, 321, 98, 12, 40, 43, 328, 154, 40, 321, 98, 98, 98, 64];
+
+            // Set up the SVG container dimensions
+            const width = 800;
+            const height = 400;
+            const margin = { top: 20, right: 20, bottom: 30, left: 50 };
+
+            // Create an SVG container
+            const svg = d3.select("#scatter-plot-container")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            // Create scales for x and y axes
+            const xScale = d3.scaleLinear().domain([d3.min(prices), d3.max(prices)]).range([0, width]);
+            const yScale = d3.scaleLinear().domain([d3.min(totalPistes), d3.max(totalPistes)]).range([height, 0]);
+
+            // Create x-axis
+            svg.append("g")
+                .attr("transform", `translate(0, ${height})`)
+                .call(d3.axisBottom(xScale))
+                .append("text")
+                .attr("x", width / 2)
+                .attr("y", margin.bottom - 5)
+                .attr("text-anchor", "middle")
+                .text("Price (£)");
+
+            // Create y-axis
+            svg.append("g")
+                .call(d3.axisLeft(yScale))
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height / 2)
+                .attr("y", -margin.left + 10)
+                .attr("text-anchor", "middle")
+                .text("Total Piste (km)");
+
+            // Create scatter plot points
+            const circles = svg.selectAll("circle")
+                .data(prices.map((price, index) => ({
+                    price,
+                    totalPiste: totalPistes[index],
+                    name: names[index],
+                    totalLifts: totalLifts[index],
+                    runs: runs[index]
+                })))
+                .enter()
+                .append("circle")
+                .attr("cx", d => xScale(d.price))
+                .attr("cy", d => yScale(d.totalPiste))
+                .attr("r", 4)
+                .attr("fill", "blue") // Set the fill color of the circles
+                .attr("stroke", "black") // Set the outline color of the circles
+                .attr("fill", "steelblue")
+                .on("mouseover", handleMouseOver)
+                .on("mouseout", handleMouseOut);
+
+            // Tooltip
+            const tooltip = d3.select("#tooltip");
+
+            function handleMouseOver(d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 1);
+
+                tooltip.html(`
+                    <strong>Name:</strong> ${d.name}<br>
+                    <strong>Piste:</strong> ${d.totalPiste} km<br>
+                    <strong>Price:</strong> £${d.price}<br>
+                    <strong>Total Lifts:</strong> ${d.totalLifts}<br>
+                    <strong>Runs:</strong> ${d.runs}
+                  `)
+                    .style("left", (d3.event.pageX + 10) + "px")
+                    .style("top", (d3.event.pageY - 10) + "px");
+            }
+
+            function handleMouseOut() {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0);
+            }
+
+        </script>
+
+        <!-- Skiing Destination 1 - Most Expensive -->
+        <h1>Cheapest Skiing Destinations</h1>
+        <section class="ski-destination">
+            <h2>10. Bardonecchia, Italy</h2>
+            <img src="Bardonecchia-Italy2.jfif" alt="Bardonecchia, Italy">
+            <p>Where to Stay: Residence Tabor, Bardonecchia, Italy</p>
+            <p>Stats: 23 Lifts and 42 Runs. </p>
+            <p>Price: For 7 nights it costs $538. A day lift costs $39. Overall cost for trip - $695</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/italy/bardonecchia/residence-tabor_38648?holidayId=58413613" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>9.Bansko, Bulgaria</h2>
+            <img src="Bansko,Bulgaria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/bulgaria/bansko/hotel-mura_20914?holidayId=58542822" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>8. Borovets, Bulgaria</h2>
+            <img src="Borovets,Bulgaria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/bulgaria/borovets/hotel-samokov_1092?holidayId=58456610" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>7. Arinsal, Andorra</h2>
+            <img src="Arinsal,Andorra2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/andorra/arinsal/hotel-xalet-besoli_2446?holidayId=58503135" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>6. Mayrhofen, Austria</h2>
+            <img src="Mayrhofen,Austria.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/mayrhofen/hotel-obermair_1829?holidayId=58408829" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>5.Canzei, Italy</h2>
+            <img src="Canzei,Italy2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/italy/canazei/hotel-cesa-rotic_32288?holidayId=58453515" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>4.Courmayeur, Italy</h2>
+            <img src="Courmayeur,Italy2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/italy/courmayeur/hotel-dei-camosci_3592?holidayId=58507295" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>3.Alpbach, Austria</h2>
+            <img src="Alpbach,Austria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/alpbach/pension-furstenhof_1267?holidayId=58495260" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+
+        </section>
+        <section class="ski-destination">
+            <h2>2. Selva-Val-Gardena, Italy</h2>
+            <img src="selva-val-gardena.png" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/italy/selva-val-gardena/garni-romantica_40758?holidayId=58515303" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>1.Pas-De-La-Casa, Andorra</h2>
+            <img src="Pas-De-La-Casa,Andorra2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/andorra/pas-de-la-casa/hotel-de-les-pistes_30905?holidayId=58467988" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <h1>Most Expensive Skiing Destinations</h1>
+        <section class="ski-destination">
+            <h2>10.St-Anton, Austria</h2>
+            <img src="St-Anton,Austria2.jfif" alt="Budget Ski Lodge">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Budget Lodge</p>
+            <p>Price: $</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/st-anton/anthonys-hotel_32811?holidayId=58207725" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>9. Saariselka, Finland</h2>
+            <img src="Saariselka,Finland2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/finland/saariselka/star-arctic-hotel_36553?holidayId=51658846" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>8. Solden, Austria</h2>
+            <img src="Solden,Austria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/solden/hotel-central_37661?holidayId=58203828" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>7. Levi, Finland</h2>
+            <img src="Levi,Finland2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/finland/levi/design-hotel-levi_37025?holidayId=51660694" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>6. Meribel, France</h2>
+            <img src="Meribel,France2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/france/meribel/hotel-la-chaudanne_32842?holidayId=58201277" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>5.Tignes-Le-Lac, France</h2>
+            <img src="Tignes-Le-Lac,France2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/france/tignes-le-lac/village-montana-suites_6122?holidayId=58210666" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>4. Obergurgl, Austria</h2>
+            <img src="Obergurgl,Austria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/obergurgl/hotel-hochfirst_1381?holidayId=58203936" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>3. Val-Thorens, France</h2>
+            <img src="Val-Thorens,France2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/france/val-thorens/hotel-fitz-roy_32837?holidayId=58208710" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+        <section class="ski-destination">
+            <h2>2.Ischgl, Austria</h2>
+            <img src="Ischgl,Austria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/ischgl/hotel-trofana-royal_27361?holidayId=58207202" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+
+        </section>
+        <section class="ski-destination">
+            <h2>1. HinterGlemm, Austria</h2>
+            <img src="HinterGlemm,Austria2.jfif" alt="Luxury Ski Resort">
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+            <p>Where to Stay: Luxury Resort Lodge</p>
+            <p>Price: $$$$</p>
+            <div id="myBox" class="color-change-box">
+                <a href="https://www.igluski.com/ski-resorts/austria/hinterglemm/hotel-alpine-palace_27264?holidayId=58208805" id="myLink" class="box-link">Book A Hotel Now!</a>
+            </div>
+        </section>
+
+        <h2>Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. Dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway. Get ready to hit the slopes without breaking the bank!</h2>
+
+        ---------------------------------------------------------------------------------------------
+
+        <h1>If you are going on vacation, which hotels give the best price for size? Total length of pistes (in km): Is there a correlation between the size of the ski area and the price?</h1>
+        <h2>My Data</h2>
+        <h2>
+            Measure: Mean of the price and piste Value: price(£):1095.027027($1192.57)  totalPiste(km): 220.270270
+        </h2>
+        <h3>
+            What does this tell me?: This is the average mean between the price and piste. This shows the average price and average Piste
+        </h3>
         <h2>----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
-            <h2>
-                Measure: Person Correlation Coefficient between Ski Area Size and Price:<h2>
-
-
-                    <h2>
-                        Value: 0.16<h2>
-
-    <h2>
-        What does this tell me?: Since this number is very low it means that the correlation is very low, if the number was higher the .4-5 it would have a correlation
-    </h2>
-    <h2>----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
-    <h2>
-        Measure: Median for price
-    </h2>
-    <h2>
-        Value: The median price is: £1021.00($1111.95)
-    </h2>
-    <h2>
-        What does this tell me?: The median price for ski resorts
-    </h2>
-    <h2>----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
-
-    <h1>My Visualizations</h1>
-    <img src="Ski visual.png" alt="Ski data image" style="width:600px;height:400px;">
-    <h3>The chart shows the price and piste for every ski resort on the data frame. This shows what each resorts price to piste is.</h3>
-    <img src="ski.png" alt="Ski data image" style="width:600px;height:400px;">
-    <h3>This is slightly different because this shows the country names with each scatter point. </h3>
-    <img src="skivisual.png" alt="Ski data image" style="width:600px;height:400px;">
-    <h3>This chart uses box plots, for each box represents the interquartile range (IQR) of prices for a specific ski area size, allowing you to compare the price distributions for different ski area sizes. </h3>
-
-    <h2>
-        Answer:
-        Based on the provided Pearson correlation coefficient of 0.16 between ski area size and price, which is less than 0.5 (our threshold for significance), the conclusion would be:
-        No, there is no significant correlation between ski area size and price.
-        A correlation coefficient of 0.16 suggests a weak positive correlation, but it does not reach the threshold considered significant. Therefore, based on this data, the size of the ski area (measured by the total length of pistes) does not have a significant impact on the price of ski resorts.
-    </h2>
+        <h2>
+            Measure: Person Correlation Coefficient between Ski Area Size and Price:
+        </h2>
+        <h3>
+            Value: 0.16
+        </h3>
+        <h3>
+            What does this tell me?: Since this number is very low, it means that the correlation is very low. If the number was higher (around 0.4-0.5), it would indicate a stronger correlation.
+        </h3>
+        <h2>----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
+        <h2>
+            Measure: Median for price
+        </h2>
+        <h3>
+            Value: The median price is: £1021.00($1111.95)
+        </h3>
+        <h3>
+            What does this tell me?: The median price for ski resorts
+        </h3>
+        <h2>----------------------------------------------------------------------------------------------------------------------------------------------------------------</h2>
+        <h1>My Visualizations</h1>
+        <img src="Ski visual.png" alt="Ski data image" style="width:600px;height:400px;">
+        <h3>The chart shows the price and piste for every ski resort on the data frame. This shows what each resort's price to piste ratio is.</h3>
+        <img src="ski.png" alt="Ski data image" style="width:600px;height:400px;">
+        <h3>This is slightly different because this shows the country names with each scatter point.</h3>
+        <img src="skivisual.png" alt="Ski data image" style="width:600px;height:400px;">
+        <h3>This chart uses box plots, with each box representing the interquartile range (IQR) of prices for a specific ski area size, allowing you to compare the price distributions for different ski area sizes.</h3>
+        <h2 class="answer">
+            Answer:
+            Based on the provided Pearson correlation coefficient of 0.16 between ski area size and price, which is less than 0.5 (our threshold for significance), the conclusion would be:
+            No, there is no significant correlation between ski area size and price.
+            A correlation coefficient of 0.16 suggests a weak positive correlation, but it does not reach the threshold considered significant. Therefore, based on this data, the size of the ski area (measured by the total length of pistes) does not have a significant impact on the price of ski resorts.
+        </h2>
+    </main>
+    <script src="SkiingJava.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.style.opacity = 1;
+        });
+    </script>
+    <script src="SkiingJava.js"></script>
 
 </body>
+
 </html>
