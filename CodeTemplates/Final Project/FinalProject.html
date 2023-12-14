@@ -37,9 +37,8 @@
     <!-- Main Content Section -->
     <main>
         <h2>
-            Are you planning a ski trip in Europe? But I don't know where to go or how much it will be. I have been skiing for basically my whole life and understand the struggle to go skiing while worrying about price and lodge because skiing is a very popular hobby so finding a place to stay and a way to keep the price down is quite a challenge. Don’t worry below will be a list of the most expensive and the least expensive resorts, complete with mountain stats and accommodation costs. Also I’ll be answering the question, does cost and the size of the mountain correlate to each other, to help you get a better understanding of where you might want to stay. Ready to hit the slopes?
-        </h2>
-       
+            Are you planning a ski trip in Europe? But don't know where to go or how much it will be. I have been skiing for basically my whole life and understand the struggle to go skiing while worrying about price and lodge because skiing is a very popular hobby so finding a place to stay and a way to keep the price down is quite a challenge. Don’t worry below will be a list of the most expensive and the least expensive resorts, complete with mountain stats and accommodation costs. Also I’ll be answering the question, does cost and the size of the mountain correlate to each other, to help you get a better understanding of where you might want to stay. Ready to hit the slopes. Join Me on a Skiing Adventure Across Europe</h2>
+        <p>Hi, I'm Alex, a ski enthusiast who turned my passion into a quest to explore Europe's most stunning ski resorts. From the snowy peaks of Austria to the charming slopes of Italy, join me as I recount my experiences and share the secrets of each destination.</p>
         <!-- Create a container for the scatter plot and tooltip -->
         <div id="scatter-plot-container"></div>
         <div class="tooltip" id="tooltip"></div>
@@ -118,12 +117,12 @@
                     .style("opacity", 1);
 
                 tooltip.html(`
-                    <strong>Name:</strong> ${d.name}<br>
-                    <strong>Piste:</strong> ${d.totalPiste} km<br>
-                    <strong>Price:</strong> £${d.price}<br>
-                    <strong>Total Lifts:</strong> ${d.totalLifts}<br>
-                    <strong>Runs:</strong> ${d.runs}
-                  `)
+                            <strong>Name:</strong> ${d.name}<br>
+                            <strong>Piste:</strong> ${d.totalPiste} km<br>
+                            <strong>Price:</strong> £${d.price}<br>
+                            <strong>Total Lifts:</strong> ${d.totalLifts}<br>
+                            <strong>Runs:</strong> ${d.runs}
+                          `)
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 10) + "px");
             }
@@ -143,17 +142,19 @@
             <img src="Bardonecchia-Italy2.jfif" alt="Bardonecchia, Italy">
             <p>Where to Stay: Residence Tabor, Bardonecchia, Italy</p>
             <p>Stats: 23 Lifts and 42 Runs. </p>
-            <p>Price: For 7 nights it costs $538. A day lift costs $39. Overall cost for trip - $695</p>
+            <p>Price: Overall cost for trip - $605</p>
+            <p>My first stop was Bardonecchia. I still remember the thrill of gliding down its inviting slopes and the cozy evenings at Residence Tabor. The combination of affordability and enchanting trails made it a perfect start to my skiing journey.</p>
             <div id="myBox" class="color-change-box">
-                <a href="https://www.igluski.com/ski-resorts/italy/bardonecchia/residence-tabor_38648?holidayId=58413613" id="myLink" class="box-link">Book A Hotel Now!</a>
+            <a href="https://www.igluski.com/ski-resorts/italy/bardonecchia/residence-tabor_38648?holidayId=58413613" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
         </section>
         <section class="ski-destination">
             <h2>9.Bansko, Bulgaria</h2>
             <img src="Bansko,Bulgaria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p> Where to Stay: Hotel-Mura, Bansko, Bulgaria </p>
+            <p>Stats: 24 Lifts and 14 Runs. </p>
+            <p>Price: Overall cost for trip - $622</p>
+            <p>Bansko surprised me with its blend of tradition and modernity. Staying at Hotel Mura, I marveled at the picturesque landscapes and well-groomed slopes. It's a hidden gem where culture and skiing merge beautifully.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/bulgaria/bansko/hotel-mura_20914?holidayId=58542822" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -161,9 +162,10 @@
         <section class="ski-destination">
             <h2>8. Borovets, Bulgaria</h2>
             <img src="Borovets,Bulgaria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Samokov, Borovets, Bulgaria</p>
+            <p>Stats: 18 Lifts and 15 Runs. </p>
+            <p>Price: Overall cost for trip - $631</p>
+            <p>Borovets, with its lively atmosphere and challenging runs, was an exhilarating stop. Hotel Samokov was a cozy retreat after thrilling days on the slopes. It's the perfect place for skiers who seek adventure and a vibrant night scene.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/bulgaria/borovets/hotel-samokov_1092?holidayId=58456610" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -171,9 +173,10 @@
         <section class="ski-destination">
             <h2>7. Arinsal, Andorra</h2>
             <img src="Arinsal,Andorra2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Xalet-Besoli, Arinsal, Andorra</p>
+            <p>Stats: 30 Lifts and 42 Runs. </p>
+            <p>Price: Overall cost for trip - $656</p>
+            <p>In Arinsal, I found a family-friendly paradise. Hotel Xalet Besoli offered warm hospitality, and the slopes were perfect for both beginners and seasoned skiers. It's where families can create lasting winter memories.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/andorra/arinsal/hotel-xalet-besoli_2446?holidayId=58503135" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -181,9 +184,10 @@
         <section class="ski-destination">
             <h2>6. Mayrhofen, Austria</h2>
             <img src="Mayrhofen,Austria.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Obermair, Mayrhofen, Austria</p>
+            <p>Stats: 52 Lifts and 133 Runs. </p>
+            <p>Price: Overall cost for trip - $661</p>
+            <p>Mayrhofen was a blend of diverse terrains and vibrant après-ski life. Hotel Obermair provided a comforting base to explore the extensive runs and breathtaking views. It's a place that caters to all skiing desires.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/mayrhofen/hotel-obermair_1829?holidayId=58408829" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -191,9 +195,10 @@
         <section class="ski-destination">
             <h2>5.Canzei, Italy</h2>
             <img src="Canzei,Italy2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Cesa-Rotic, Canazei, Italy</p>
+            <p>Stats: 58 Lifts and 74 Runs. </p>
+            <p>Price: Overall cost for trip - $706</p>
+            <p>Canazei captivated me with its Italian charm and stunning Dolomites scenery. Hotel Cesa Rotic was my gateway to exploring the Sella Ronda circuit. It's a destination where Italian flair meets world-class skiing.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/italy/canazei/hotel-cesa-rotic_32288?holidayId=58453515" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -201,9 +206,10 @@
         <section class="ski-destination">
             <h2>4.Courmayeur, Italy</h2>
             <img src="Courmayeur,Italy2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Dei-Camosci, Courmayeur, Italy</p>
+            <p>Stats: 16 Lifts and 22 Runs. </p>
+            <p>Price: Overall cost for trip - $728</p>
+            <p>Courmayeur's allure lies in its luxurious setting at the foot of Mont Blanc. My stay at Hotel Dei Camosci was filled with spectacular views and exquisite dining. It's where elegance and mountain thrill meet.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/italy/courmayeur/hotel-dei-camosci_3592?holidayId=58507295" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -211,9 +217,10 @@
         <section class="ski-destination">
             <h2>3.Alpbach, Austria</h2>
             <img src="Alpbach,Austria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Pension-Furstenhof, Alpbach, Austria</p>
+            <p>Stats: 47 Lifts and 69 Runs. </p>
+            <p>Price: Overall cost for trip - $728</p>
+            <p>Alpbach was a tranquil retreat, with its picturesque village and serene slopes. Staying at Pension Furstenhof, I enjoyed the quiet charm and friendly community. It's ideal for those seeking a peaceful ski getaway.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/alpbach/pension-furstenhof_1267?holidayId=58495260" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -222,9 +229,10 @@
         <section class="ski-destination">
             <h2>2. Selva-Val-Gardena, Italy</h2>
             <img src="selva-val-gardena.png" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Garni-Romantica, Selva-Val-Gardena, Italy</p>
+            <p>Stats: 81 Lifts and 59 Runs. </p>
+            <p>Price: Overall cost for trip - $749</p>
+            <p>Selva-Val-Gardena was breathtaking, nestled in the heart of the Dolomites. Garni Romantica was the perfect home base for days filled with extensive skiing and exploring. It's where natural beauty and skiing adventures converge.</p>S
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/italy/selva-val-gardena/garni-romantica_40758?holidayId=58515303" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -232,9 +240,10 @@
         <section class="ski-destination">
             <h2>1.Pas-De-La-Casa, Andorra</h2>
             <img src="Pas-De-La-Casa,Andorra2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-De-Les-Pistes, Pas-De-La-Casa, Andorra</p>
+            <p>Stats: 63 Lifts and 100 Runs. </p>
+            <p>Price: Overall cost for trip - $758</p>
+            <p>Pas-De-La-Casa was the apex of my Andorran skiing experience. Hotel De Les Pistes provided a comfortable stay with easy access to diverse runs. It's a destination that combines excitement and affordability.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/andorra/pas-de-la-casa/hotel-de-les-pistes_30905?holidayId=58467988" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -243,9 +252,10 @@
         <section class="ski-destination">
             <h2>10.St-Anton, Austria</h2>
             <img src="St-Anton,Austria2.jfif" alt="Budget Ski Lodge">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Budget Lodge</p>
-            <p>Price: $</p>
+            <p>Where to Stay: Anthonys-Hotel, St-Anton, Austria</p>
+            <p>Stats: 88 Lifts and 304 Runs. </p>
+            <p>Price: Overall cost for trip - $2053</p>
+            <p>My time in St-Anton at Anthonys Hotel was like stepping into a skiing paradise. With 88 lifts and 304 runs, it was an exhilarating experience, blending world-class skiing with vibrant après-ski culture.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/st-anton/anthonys-hotel_32811?holidayId=58207725" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -253,9 +263,10 @@
         <section class="ski-destination">
             <h2>9. Saariselka, Finland</h2>
             <img src="Saariselka,Finland2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Star-Arctic-Hotel, Saariselka, Finland</p>
+            <p>Stats: 5 Lifts and 12 Runs. </p>
+            <p>Price: Overall cost for trip - $2188</p>
+            <p>At Saariselka, the Star Arctic Hotel was my gateway to a unique polar experience. The resort, with its 5 lifts and 12 runs, offered a magical blend of Nordic charm and serene Arctic landscapes.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/finland/saariselka/star-arctic-hotel_36553?holidayId=51658846" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -263,9 +274,10 @@
         <section class="ski-destination">
             <h2>8. Solden, Austria</h2>
             <img src="Solden,Austria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Central, Solden, Austria</p>
+            <p>Stats: 33 Lifts and 40 Runs. </p>
+            <p>Price: Overall cost for trip - $2195</p>
+            <p>In Solden, staying at Hotel Central provided access to an impressive ski area with 33 lifts and 40 runs, set against a backdrop of stunning Alpine scenery and lively après-ski activities.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/solden/hotel-central_37661?holidayId=58203828" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -273,9 +285,10 @@
         <section class="ski-destination">
             <h2>7. Levi, Finland</h2>
             <img src="Levi,Finland2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Design-Hotel-Levi, Levi, Finland</p>
+            <p>Stats: 27 Lifts and 43 Runs. </p>
+            <p>Price: Overall cost for trip - $2221</p>
+            <p>Levi's Design Hotel was a luxurious retreat in the heart of Lapland. The resort, with its 27 lifts and 43 runs, offered a unique blend of Finnish tranquility and adventurous skiing.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/finland/levi/design-hotel-levi_37025?holidayId=51660694" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -283,9 +296,10 @@
         <section class="ski-destination">
             <h2>6. Meribel, France</h2>
             <img src="Meribel,France2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-La-Chaudanne, Meribel, Fance</p>
+            <p>Stats: 183 Lifts and 328 Runs. </p>
+            <p>Price: Overall cost for trip - $2228</p>
+            <p>Meribel, with Hotel La Chaudanne, was an indulgence in the Three Valleys. With 183 lifts and 328 runs, it epitomized luxury skiing with its vast slopes and exclusive ambiance.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/france/meribel/hotel-la-chaudanne_32842?holidayId=58201277" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -293,9 +307,10 @@
         <section class="ski-destination">
             <h2>5.Tignes-Le-Lac, France</h2>
             <img src="Tignes-Le-Lac,France2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Village-Montana-Suites, Tignes-Le-Lac, France</p>
+            <p>Stats: 89 Lifts and 154 Runs. </p>
+            <p>Price: Overall cost for trip - $2301</p>
+            <p>At Tignes-Le-Lac, Village Montana Suites offered a modern ski experience with direct slope access. Its 89 lifts and 154 runs catered to all levels, set against the breathtaking French Alps.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/france/tignes-le-lac/village-montana-suites_6122?holidayId=58210666" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -303,9 +318,10 @@
         <section class="ski-destination">
             <h2>4. Obergurgl, Austria</h2>
             <img src="Obergurgl,Austria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Hochfirst, Obergurgl, Austria</p>
+            <p>Stats: 24 Lifts and 40 Runs. </p>
+            <p>Price: Overall cost for trip - $2341</p>
+            <p>Obergurgl, with its exclusive Hotel Hochfirst, offered a high-altitude ski experience. The resort's 24 lifts and 40 runs were perfect for those seeking both tranquility and exhilarating ski slopes.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/obergurgl/hotel-hochfirst_1381?holidayId=58203936" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -313,9 +329,10 @@
         <section class="ski-destination">
             <h2>3. Val-Thorens, France</h2>
             <img src="Val-Thorens,France2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Fitz-Roy, Val-Thorens, France</p>
+            <p>Stats: 183 Lifts and 321 Runs. </p>
+            <p>Price: Overall cost for trip - $2438</p>
+            <p>Val-Thorens, home to Hotel Fitz Roy, stood as the pinnacle of French skiing. With 183 lifts and 321 runs, it was a haven for ski enthusiasts seeking the ultimate in slope variety and luxury.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/france/val-thorens/hotel-fitz-roy_32837?holidayId=58208710" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -323,9 +340,10 @@
         <section class="ski-destination">
             <h2>2.Ischgl, Austria</h2>
             <img src="Ischgl,Austria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Fliana, Ischgl, Austria</p>
+            <p>Stats: 48 Lifts and 98 Runs. </p>
+            <p>Price: Overall cost for trip - $2733</p>
+            <p>Ischgl was a revelation in luxury skiing, and Hotel Fliana was the perfect base. Its 48 lifts and 98 runs offered a diverse skiing experience, matched with high-end amenities and vibrant nightlife.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/ischgl/hotel-trofana-royal_27361?holidayId=58207202" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
@@ -334,16 +352,17 @@
         <section class="ski-destination">
             <h2>1. HinterGlemm, Austria</h2>
             <img src="HinterGlemm,Austria2.jfif" alt="Luxury Ski Resort">
-            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <p>Where to Stay: Luxury Resort Lodge</p>
-            <p>Price: $$$$</p>
+            <p>Where to Stay: Hotel-Alpine-Palace, Hinterglemm, Austria</p>
+            <p>Stats: 54 Lifts and 64 Runs. </p>
+            <p>Price: Overall cost for trip - $2769</p>
+            <p>At Hinterglemm, the Hotel Alpine Palace set the bar for luxury skiing. The resort's 54 lifts and 64 runs provided an exclusive ski experience amidst the stunning beauty of the Austrian Alps.</p>
             <div id="myBox" class="color-change-box">
                 <a href="https://www.igluski.com/ski-resorts/austria/hinterglemm/hotel-alpine-palace_27264?holidayId=58208805" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
         </section>
 
         <h2>
-           Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. With this in mind, through all the data we have, these two are the cheapest and the most expensive. The cheapest is Italy, Bardonecchia at 550£ and the most exspensive is Austria, Hinterglemm at 2517£. You can also dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway.
+            Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. With this in mind, through all the data we have, these two are the cheapest and the most expensive. The cheapest is Italy, Bardonecchia at 550£ and the most exspensive is Austria, Hinterglemm at 2517£. You can also dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway.
         </h2>
 
         ---------------------------------------------------------------------------------------------
@@ -382,7 +401,6 @@
         <h3>The chart shows the price and piste for every ski resort on the data frame. This shows what each resort's price to piste ratio is.</h3>
         <img src="ski.png" alt="Ski data image" style="width:600px;height:400px;">
         <h3>This is slightly different because this shows the country names with each scatter point.</h3>
-        <img src="skivisual.png" alt="Ski data image" style="width:600px;height:400px;">
         <h3>This chart uses box plots, with each box representing the interquartile range (IQR) of prices for a specific ski area size, allowing you to compare the price distributions for different ski area sizes.</h3>
         <h2 class="answer">
             Answer:
