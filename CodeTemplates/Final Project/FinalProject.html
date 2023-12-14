@@ -37,7 +37,8 @@
     <!-- Main Content Section -->
     <main>
         <h2>
-            Are you planning a ski trip in Europe? But don't know where to go or how much it will be. I have been skiing for basically my whole life and understand the struggle to go skiing while worrying about price and lodge because skiing is a very popular hobby so finding a place to stay and a way to keep the price down is quite a challenge. Don’t worry below will be a list of the most expensive and the least expensive resorts, complete with mountain stats and accommodation costs. Also I’ll be answering the question, does cost and the size of the mountain correlate to each other, to help you get a better understanding of where you might want to stay. Ready to hit the slopes. Join Me on a Skiing Adventure Across Europe</h2>
+            Are you planning a ski trip in Europe? But don't know where to go or how much it will be. I have been skiing for basically my whole life and understand the struggle to go skiing while worrying about price and lodge because skiing is a very popular hobby so finding a place to stay and a way to keep the price down is quite a challenge. Don’t worry below will be a list of the most expensive and the least expensive resorts, complete with mountain stats and accommodation costs. Also I’ll be answering the question, does cost and the size of the mountain correlate to each other, to help you get a better understanding of where you might want to stay. Ready to hit the slopes. Join Me on a Skiing Adventure Across Europe
+        </h2>
         <p>Hi, I'm Alex, a ski enthusiast who turned my passion into a quest to explore Europe's most stunning ski resorts. From the snowy peaks of Austria to the charming slopes of Italy, join me as I recount my experiences and share the secrets of each destination.</p>
         <!-- Create a container for the scatter plot and tooltip -->
         <div id="scatter-plot-container"></div>
@@ -117,12 +118,12 @@
                     .style("opacity", 1);
 
                 tooltip.html(`
-                            <strong>Name:</strong> ${d.name}<br>
-                            <strong>Piste:</strong> ${d.totalPiste} km<br>
-                            <strong>Price:</strong> £${d.price}<br>
-                            <strong>Total Lifts:</strong> ${d.totalLifts}<br>
-                            <strong>Runs:</strong> ${d.runs}
-                          `)
+                                            <strong>Name:</strong> ${d.name}<br>
+                                            <strong>Piste:</strong> ${d.totalPiste} km<br>
+                                            <strong>Price:</strong> £${d.price}<br>
+                                            <strong>Total Lifts:</strong> ${d.totalLifts}<br>
+                                            <strong>Runs:</strong> ${d.runs}
+                                          `)
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 10) + "px");
             }
@@ -145,7 +146,7 @@
             <p>Price: Overall cost for trip - $605</p>
             <p>My first stop was Bardonecchia. I still remember the thrill of gliding down its inviting slopes and the cozy evenings at Residence Tabor. The combination of affordability and enchanting trails made it a perfect start to my skiing journey.</p>
             <div id="myBox" class="color-change-box">
-            <a href="https://www.igluski.com/ski-resorts/italy/bardonecchia/residence-tabor_38648?holidayId=58413613" id="myLink" class="box-link">Book A Hotel Now!</a>
+                <a href="https://www.igluski.com/ski-resorts/italy/bardonecchia/residence-tabor_38648?holidayId=58413613" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
         </section>
         <section class="ski-destination">
@@ -360,10 +361,11 @@
                 <a href="https://www.igluski.com/ski-resorts/austria/hinterglemm/hotel-alpine-palace_27264?holidayId=58208805" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
         </section>
-
-        <h2>
+        <p>As I journeyed through these resorts, I started noticing patterns. Were the more expensive resorts really offering more? Analyzing data on prices and piste lengths, I uncovered some surprising trends.</p>
+        <p>Every resort I visited left me with unforgettable memories and lessons. Whether it's the luxurious charm of Courmayeur or the rustic allure of Alpbach, there's a story waiting for you in the snowy embrace of these mountains. Where will your story begin?</p>
+        <p>
             Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. With this in mind, through all the data we have, these two are the cheapest and the most expensive. The cheapest is Italy, Bardonecchia at 550£ and the most exspensive is Austria, Hinterglemm at 2517£. You can also dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway.
-        </h2>
+        </p>
 
         ---------------------------------------------------------------------------------------------
 
@@ -408,6 +410,8 @@
             No, there is no significant correlation between ski area size and price.
             A correlation coefficient of 0.16 suggests a weak positive correlation, but it does not reach the threshold considered significant. Therefore, based on this data, the size of the ski area (measured by the total length of pistes) does not have a significant impact on the price of ski resorts.
         </h2>
+        <h2>Ready to Create Your Skiing Story?</h2>
+        <h2>Your perfect ski adventure is just a few clicks away. Explore the resorts, find your favorite, and step into your own skiing story. The mountains are calling!</h2>
     </main>
     <script src="SkiingJava.js"></script>
     <script>
