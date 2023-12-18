@@ -10,6 +10,24 @@
         body {
             opacity: 0;
             transition: opacity 2s ease-in-out; /* Set the transition duration to 2 seconds */
+        
+          }
+
+        @media only screen and (max-width: 390px) {
+            body {
+                font-size: 14px; /* Adjust font size */
+            }
+
+            .ski-destination img {
+                width: 100%; /* Full width images */
+                height: auto;
+            }
+
+            header, main, section {
+                padding: 10px; /* Adjust padding */
+            }
+
+            /* More responsive adjustments as needed */
         }
     </style>
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -53,7 +71,7 @@
             const runs = [42, 42, 14, 15, 14, 42, 133, 15, 42, 42, 42, 74, 42, 22, 69, 14, 14, 59, 100, 160, 30, 22, 160, 14, 33, 100, 11, 100, 60, 42, 69, 262, 100, 74, 63, 30, 30, 128, 59, 14, 133, 128, 30, 30, 38, 160, 123, 123, 59, 14, 111, 14, 59, 43, 74, 69, 30, 30, 38, 100, 59, 34, 123, 14, 262, 160, 160, 30, 11, 146, 67, 30, 111, 63, 8, 160, 160, 69, 22, 74, 74, 290, 100, 69, 131, 100, 133, 30, 29, 290, 160, 22, 74, 30, 69, 29, 74, 42, 69, 59, 160, 30, 100, 131, 74, 60, 12, 69, 146, 30, 133, 59, 74, 5, 69, 100, 30, 59, 100, 30, 43, 15, 33, 60, 59, 74, 160, 59, 43, 42, 308, 308, 128, 146, 32, 128, 8, 133, 30, 135, 12, 12, 131, 154, 123, 63, 146, 59, 128, 30, 29, 242, 59, 128, 40, 85, 123, 85, 85, 32, 0, 30, 123, 131, 43, 108, 131, 8, 76, 38, 133, 59, 98, 59, 154, 100, 123, 8, 135, 304, 59, 133, 74, 154, 42, 98, 128, 12, 60, 29, 128, 78, 111, 59, 78, 43, 59, 18, 60, 59, 60, 128, 154, 38, 76, 74, 60, 133, 85, 38, 270, 207, 133, 128, 74, 29, 128, 123, 59, 76, 135, 60, 146, 38, 123, 74, 126, 98, 43, 60, 135, 59, 60, 74, 321, 108, 286, 18, 59, 59, 60, 22, 59, 123, 22, 76, 270, 59, 50, 270, 128, 64, 59, 154, 128, 58, 43, 154, 154, 40, 304, 85, 321, 64, 0, 29, 108, 154, 67, 128, 40, 18, 270, 74, 11, 76, 275, 40, 135, 135, 133, 321, 128, 18, 321, 270, 111, 40, 154, 304, 262, 29, 59, 165, 133, 154, 58, 40, 40, 43, 0, 64, 59, 154, 40, 304, 308, 59, 0, 134, 131, 131, 40, 40, 98, 85, 98, 165, 98, 304, 60, 133, 134, 59, 108, 135, 98, 67, 0, 128, 154, 126, 131, 43, 0, 304, 248, 59, 40, 64, 128, 58, 67, 304, 154, 154, 94, 321, 304, 304, 0, 304, 60, 29, 40, 40, 304, 119, 321, 154, 85, 133, 328, 134, 270, 270, 270, 40, 67, 59, 0, 50, 40, 154, 59, 270, 321, 40, 40, 40, 59, 59, 67, 270, 40, 0, 119, 40, 248, 123, 134, 135, 154, 304, 321, 98, 12, 40, 43, 328, 154, 40, 321, 98, 98, 98, 64];
 
             // Set up the SVG container dimensions
-            const width = 800;
+            const width = 700;
             const height = 400;
             const margin = { top: 20, right: 20, bottom: 30, left: 50 };
 
@@ -118,12 +136,12 @@
                     .style("opacity", 1);
 
                 tooltip.html(`
-                                            <strong>Name:</strong> ${d.name}<br>
-                                            <strong>Piste:</strong> ${d.totalPiste} km<br>
-                                            <strong>Price:</strong> £${d.price}<br>
-                                            <strong>Total Lifts:</strong> ${d.totalLifts}<br>
-                                            <strong>Runs:</strong> ${d.runs}
-                                          `)
+                 <strong>Name:</strong> ${d.name}<br>
+                 <strong>Piste:</strong> ${d.totalPiste} km<br>
+                 <strong>Price:</strong> £${d.price}<br>
+                 <strong>Total Lifts:</strong> ${d.totalLifts}<br>
+                 <strong>Runs:</strong> ${d.runs}
+                                                  `)
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 10) + "px");
             }
@@ -361,11 +379,11 @@
                 <a href="https://www.igluski.com/ski-resorts/austria/hinterglemm/hotel-alpine-palace_27264?holidayId=58208805" id="myLink" class="box-link">Book A Hotel Now!</a>
             </div>
         </section>
+        Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. With this in mind, through all the data we have, these two are the cheapest and the most expensive. The cheapest is Italy, Bardonecchia at 550£ and the most exspensive is Austria, Hinterglemm at 2517£. The ones I would recommend from the cheapest to most exspensive. On the cheapside I would recommend Mayrhofen, Austria, with a very good price, this resort provides 133 runs, and if you want to ski you generally want more runs for the variety. For the most exspensive side I would recommend is St-Anton, Austria, this resort has a very high variety of runs having a told number of 304. You can also dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway.
+        </p>
         <p>As I journeyed through these resorts, I started noticing patterns. Were the more expensive resorts really offering more? Analyzing data on prices and piste lengths, I uncovered some surprising trends.</p>
         <p>Every resort I visited left me with unforgettable memories and lessons. Whether it's the luxurious charm of Courmayeur or the rustic allure of Alpbach, there's a story waiting for you in the snowy embrace of these mountains. Where will your story begin?</p>
-        <p>
-            Skiing is a very expensive hobby, so with so much money being spent, we want to make sure we are getting the best price and experience. Skiing is really based on the individual's budget, it’s based on how much the person is willing to spend. With this in thought we will help you discover the perfect blend of thrilling slopes and budget-friendly accommodations. Our comprehensive ranking, complete with detailed stats and accommodation costs, empowers you to make informed choices for an unforgettable ski experience. With this in mind, through all the data we have, these two are the cheapest and the most expensive. The cheapest is Italy, Bardonecchia at 550£ and the most exspensive is Austria, Hinterglemm at 2517£. You can also dive into our exclusive insights on the correlation between ski area size and prices, helping you find the best value for your winter getaway.
-        </p>
+
 
         ---------------------------------------------------------------------------------------------
 
